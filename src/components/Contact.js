@@ -30,6 +30,11 @@ function Contact() {
             setMessage("")
         }, (error) => {
             console.log(error.text);
+            console.log(emailjs_cred);
+            console.log("coucou")
+            console.log(process.env.SERVICE_ID)
+            console.log(process.env.TEMPLATE_ID)
+            console.log(process.env.USER_ID)
         });
     };
 
