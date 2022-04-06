@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Lang from './Lang'
 import logo from '../images/logo_comp.svg';
 import levier_icon from '../images/levier_icon_comp.svg';
@@ -25,6 +25,8 @@ var parse = require('html-react-parser');
 
 function Services(props) {
 
+    
+
     const {lang} = React.useContext(LangContext)
     const content = require('./servicesContent.json');
     const service_id = props.service
@@ -32,6 +34,10 @@ function Services(props) {
     const services = content[lang][service_id]["services"];
     let banderolStyle;
 
+
+    useEffect(() => {
+        document.title = banderol.title
+    }, [lang])
 
     switch (service_id) {
         case "data":

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import "./article.css"
 import Lang from '../Lang'
@@ -39,6 +39,10 @@ function MyStory() {
                 return <img src="" alt="null photo"></img>
         }
     }
+
+    useEffect(() => {
+        document.title = banderol.title
+    }, [])
 
 
     return (

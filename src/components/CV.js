@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import logo from '../images/logo_comp.svg';
 import "./cv.css"
 import "./skills.css"
@@ -21,6 +21,14 @@ function CV() {
     const dev = content[lang].dev;
     const publis = content[lang].publis;
 
+    useEffect(() => {
+        if (lang == "fr"){
+            document.title = "CV d'Alexandre Conanec"
+        }else{
+            document.title = "Alexandre Conanec's CV"
+        }
+        
+    }, [lang])
 
     const Topic = (props) => {
 
