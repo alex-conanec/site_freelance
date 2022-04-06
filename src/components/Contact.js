@@ -19,6 +19,13 @@ function Contact() {
 
     const {lang} = React.useContext(LangContext)
     const content = require('./homeContent.json');
+
+
+    console.log(emailjs_cred);
+    console.log("coucou")
+    console.log(process.env.SERVICE_ID)
+    console.log(process.env.TEMPLATE_ID)
+    console.log(process.env.USER_ID)
     
     const sendEmail = (e) => {
         e.preventDefault();
