@@ -16,6 +16,7 @@ function Main() {
 
     useEffect( () => {
         window.scrollTo(0, 0);
+        document.title = "Alexandre Conanec: data scientist freelance"
     })
 
     const {lang} = React.useContext(LangContext)

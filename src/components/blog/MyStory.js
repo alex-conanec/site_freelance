@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import "./article.css"
 import Lang from '../Lang'
@@ -21,6 +21,12 @@ function MyStory() {
     const citations = content[lang].citations;
     const ds_disciplines = content[lang].ds_disciplines;
     const banderolStyle = {"backgroundImage": `url(${ImgBanderol})`}
+
+
+    useEffect(() => {
+        document.title = banderol.title
+    }, [])
+
 
     const ImgChoice = (props) => {
 
