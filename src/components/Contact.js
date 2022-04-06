@@ -30,6 +30,7 @@ function Contact() {
             setMessage("")
         }, (error) => {
             console.log(error.text);
+            console.log(emailjs_cred);
         });
     };
 
