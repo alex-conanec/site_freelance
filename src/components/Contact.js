@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
 import { LangContext } from "../index";
+require('dotenv').config()
 
 var parse = require('html-react-parser');
 function Contact() {
