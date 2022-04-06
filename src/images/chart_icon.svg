@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg22675"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="chart_icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22677"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.37593996"
+     inkscape:cx="-425.59988"
+     inkscape:cy="450.86987"
+     inkscape:window-width="1838"
+     inkscape:window-height="1016"
+     inkscape:window-x="82"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs22672" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g23270"
+       inkscape:export-filename="/home/alex/Documents/ds/site_pro/react/freelance-site/src/images/chart-icon.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:23.1666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 195.38878,221.29992 H 16.222126 V 66.248979"
+         id="path22781" />
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:4.04506;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="path23058"
+         cx="66.742752"
+         cy="169.99532"
+         r="12.256642" />
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:4.04506;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="circle23176"
+         cx="166.58438"
+         cy="94.502197"
+         r="12.256642" />
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:4.04506;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="circle23178"
+         cx="154.28503"
+         cy="170.06013"
+         r="12.256642" />
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:4.04506;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="circle23180"
+         cx="80.009071"
+         cy="107.40942"
+         r="12.256642" />
+      <circle
+         style="fill:#000000;stroke:none;stroke-width:4.04506;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+         id="circle23182"
+         cx="115.95471"
+         cy="143.92375"
+         r="12.256642" />
+    </g>
+  </g>
+</svg>

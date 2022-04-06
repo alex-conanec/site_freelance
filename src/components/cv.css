@@ -1,0 +1,232 @@
+/* ########### CV page ############ */
+
+/* icon color */
+.fa-location-dot{
+  color: red;
+}
+
+
+.fa-calendar{
+  color: green;
+}
+
+.fa-at{
+  color: blue
+}
+
+.fa-car{
+  color: orange;
+}
+
+/* entete */
+section#entete_cv{
+  text-align: center;
+  padding: 20px;
+  margin-inline: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#entete_cv > div.logo{
+  position: absolute;
+  right: 0;
+  left: unset;
+  top: 0;
+  padding-right: 60px;
+}
+
+section#entete_cv > div.logo > a > img{
+  height: 200px;
+  width: 141px;
+}
+
+
+section#entete_cv > h1{
+  margin-top: 30px;
+}
+
+section#entete_cv > div.download-btn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#entete_cv > div.infos-generales > span{
+  white-space: nowrap;
+}
+
+section#entete_cv > div.download-btn > p{
+  background-color: rgb(163, 171, 176);
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 8px;
+  margin: 5px;
+}
+
+section#entete_cv > div.download-btn > p > a{
+  white-space: nowrap;
+  color: white;
+}
+
+
+
+/* section#entete_cv > div > i{
+  margin-right: 5px;
+  margin-left: 10px;
+} */
+i{
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+section.cate_cv{
+  padding: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid black;
+}
+
+section.cate_cv > h2{
+  width: fit-content;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+}
+
+section.cate_cv > ul{
+  list-style-type: none;
+}
+
+section.cate_cv > ul > li{
+  border-bottom: 1px dashed gray;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+}
+
+section.cate_cv > ul > li > h3{
+  font-size: x-large;
+  font-weight: normal;
+}
+
+section.cate_cv > ul > li > h4{
+  font-size: large;
+  font-weight: bold;
+}
+
+section.cate_cv > ul > li > p{
+  margin-bottom: 0;
+}
+
+section#publication > ol > li > p > strong.author-me{
+  font-weight: normal;
+  border-bottom: 0.5px solid black;
+}
+
+section#publication > ol > li > p > a{
+  color: blue;
+  word-break: break-all;
+}
+
+section#publication > h2{
+  margin-bottom: calc(0.5rem + 10px);
+}
+
+section#publication > h3{
+  font-size: x-large;
+  font-weight: normal;
+}
+
+section#publication > ol > li{
+  border-bottom: 1px dashed gray;
+  padding-top: 10px ;
+  padding-bottom: 0 ;
+}
+
+div.sub-skill{
+  padding-left: 20px;
+}
+
+
+/* confirmation message */
+div.confirmation{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+}
+
+
+div.confirmation > div.logo{
+  height: 250px;
+  width: 176px;
+  position: initial;
+
+}
+
+div.confirmation > div > a > img{
+  height: 100%;
+  width: 100%;
+  max-width: 250px;
+  max-height: 176px;
+}
+
+div.confirmation > h1{
+  margin-bottom: 50px;  
+}
+
+div.confirmation > h2{
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+@media print {
+  
+  section#entete_cv{
+    padding-top: 0;
+    margin-top: -30px;
+  }  
+  
+  section#entete_cv > div.download-btn{
+    display: none;
+  }
+  
+  section#entete_cv > div.language_btn{
+    display: none;
+  }  
+
+  section#entete_cv > div.logo{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+
+  a.back {
+    display: none;
+  }
+}
+
+
+@media (max-width: 800px){
+  
+  section#entete_cv > div.logo{
+    padding-right: 0;
+  }
+}
+
+
+@media (max-width: 700px){
+  
+  section#entete_cv > div.logo{
+    display: none;
+  }
+}
+

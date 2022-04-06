@@ -1,0 +1,676 @@
+{
+    "fr": {
+        "data": {
+            "banderol": {
+                "title": "Collecte, nettoyage et stockage des données",
+                "description": "Creation d'une pipeline pour intégrer les données nécessaire à votre entreprise. Pour alimenter votre tableau de bord ou vos modèles de prédiction.",
+                "anchors": [
+                    {
+                        "URL": "/service-data#collect",
+                        "TYPE": "fontawesome",
+                        "ICON": "fa-solid fa-hand-holding",
+                        "label": "Collecte"
+                    },
+                    {
+                        "URL": "/service-data#clean",
+                        "TYPE": "fontawesome",
+                        "ICON": "fa-solid fa-broom",
+                        "label": "Nettoyage"
+                    },
+                    {
+                        "URL": "/service-data#stock",
+                        "TYPE": "fontawesome",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Stockage"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Collecte des données",
+                    "citation": "La donnée… L’or noir du XXI<sup>ème</sup> siècle.",
+                    "source": "source non déterminée",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "oil_barril",
+                        "alt": "Fuel de données"
+                    },
+                    "problematique": "Les données sont partout. Certaines sont en votre possession (vos capteurs, vos mesures, vos photos, etc.), d'autres sont sur le net (API, site web) ou dans d'autres bases de données auxquelles vous avez accès. Parfois, elle n'est simplement pas enregistré, notamment par vos utilisateurs, salariés etc.",
+                    "propositions": [
+                        "Création d'une application de type CRM pour saisir vos données.",
+                        "Requêtes SQL pour interroger vos propres bases de données.",
+                        "Web API pour alimenter vos base de données avec des bases externes.",
+                        "Web Scrappers pour utiliser le contenu de pages internet."
+                    ]
+                },
+                {
+                    "title": "Nettoyage des données",
+                    "citation": "On ne cuit pas le riz dans l'eau de vaisselle.",
+                    "source": "Proverbe Georgien",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "data_cleaning",
+                        "alt": "Aspirateur à données"
+                    },
+                    "problematique": "L'or noir est dans votre barril, mais ce n'est pour le moment que du pétrole brute. Vos données doivent être homogénéisées pour les rendre compatibles avec les outils de visualisation ou de machine learning. Cette étape parfois laborieuse, souvent sous-estimée, est cependant essentielle pour la fiabilité de vos modèles. Une bonne préparation des données assure par ailleurs un gain évident de temps lors de la phase de modélisation.",
+                    "propositions": [
+                        "Parsing de document (html, xml, pdf) pour extraire l'information.",
+                        "Homogénéisation des variables (noms, codage des modalités, unités).",
+                        "Détection de valeur aberrantes.",
+                        "Imputation de valeur manquantes."
+                    ]
+                },
+                {
+                    "title": "Stockage de données",
+                    "citation": "Une place pour chaque chose et chaque chose à sa place.",
+                    "SOURCE": "Samuel Smile",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "etagere",
+                        "alt": "Stockage des données"
+                    },
+                    "problematique": "L'organisation de vos <strong>données</strong> ne doit pas être laissée au hasard surtout lorsque leur variété et leur volume est important. L'utilisation de base de données relationnelles permet notamment de schématiser l'organisation de vos données pour limiter les redondances et faciliter les extractions. Pour les projets évoluant constamment, des solutions noSQL sont parfois plus adaptées car apportent davantage de flexibilité. Le stockage doit à la fois permettre de sécuriser vos données en procédant à des replicats et à la fois de distribuer celles-ci afin qu'elle soient accessibles par un ensemble d'utilisateurs que vous aurez défini.",
+                    "propositions": [
+                        "Modélisation des données pour utiliser des bases de données relationnelles.",
+                        "Stockage flexible à l'évolution du projet avec des bases noSQL.",
+                        "Distribution du stockage pour garantir l'accessibilité de vos données"
+                    ]
+                }
+            ]
+        },
+        "ml": {
+            "banderol": {
+                "title": "Intelligence artificielle",
+                "description": "Creation de modèles pour analyser et prédire.",
+                "anchors": [
+                    {
+                        "URL": "/service-IA#predire",
+                        "ICON": "fa-solid fa-binoculars",
+                        "TYPE": "fontawesome",
+                        "label": "Prédire"
+                    },
+                    {
+                        "URL": "/service-IA#comprendre",
+                        "ICON": "fa-solid fa-brain",
+                        "TYPE": "fontawesome",
+                        "label": "Comprendre"
+                    },
+                    {
+                        "URL": "/service-IA#decider",
+                        "ICON": "levier",
+                        "TYPE": "custom",
+                        "label": "Décider"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Prédire",
+                    "citation": "Un homme averti en vaut deux.",
+                    "source": "Proverbe populaire",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "graph_pred",
+                        "alt": "Prédiction série temporelle"
+                    },
+                    "problematique": "L'apprentissage automatique permet d'estimer ce qui se passe dans un contexte donné. Chaque prédiction vous permet d'anticiper la réalisation d'un événement, pour prévenir une panne et éviter l'arrêt de la chaîne de production, pour soigner une maladie à un stade précoce avant la dégradation de la santé d'un individu/animal/plante. Comme pour la météo, obtenez aussi des prévisions sur les prévisions de vos ventes",
+                    "propositions": [
+                        "Modèle de séries temportaires pour prédire le future.",
+                        "Comparaison de différents algorithmes de régression/classNameification pour améliorer vos prédictions.",
+                        "Validation du modèle pour en assurer sa fiabilité"
+                    ]
+                },
+                {
+                    "title": "Comprendre",
+                    "citation": "A scientist build in order to learn; an engineer learns in order to build.",
+                    "SOURCE": "Fred Brooks",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "meca_brain",
+                        "alt": "Cerveau numérique"
+                    },
+                    "problematique": "Parfois prédire ce qui se passe ne suffit pas à répondre à la problématique et il est nécessaire de comprendre les mécanismes qui sont en jeu dans un phénomène d'intérêt. Par exemple décrypter quelles variables explicatives ont un impact sur votre variable à expliquer et avec quelle importance relative afin de modifier votre manière de produire. Comprendre la structuration de vos données peut aussi se révéler décisive, en identifiant par exemple, des profils types de client pour leur proposer une offre adaptée et personnalisée.",
+                    "propositions": [
+                        "Statistiques inférentielles et test d'hypothèses pour traiter scientifiquement vos expériences.",
+                        "Analyse de la sensibilité pour identifier les principaux facteurs influençant votre variable d'intérêt.",
+                        "Apprentissage non supervisé pour comprendre la structuration de vos données."
+                    ]
+                },
+                {
+                    "title": "Décider",
+                    "citation": "Choisir c'est renoncer.",
+                    "SOURCE": "André Gide",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "decision_making_process",
+                        "alt": "Processus de décision"
+                    },
+                    "problematique": "Décider revient souvent à faire des choix entre plusieurs options. Les algorithmes d'aide à la décision prennent en compte vos objectifs et vos contraintes pour trouver la solution qui correspond le mieux à vos attentes. Allouez vos ressources de manière plus efficiente en minimisant un coût de production ou en trouvant une organisation du travail qui correspond à vos équipes et les différentes spécialités de chacun. Fixez votre prix de vente de manière optimale pour maximiser vos bénéfices en prenant en compte la relation entre prix et volume vendu.",
+                    "propositions": [
+                        "Formalisation du problème d'optimisation pour définir mathématiquement les contraintes et les objectifs de votre problème.",
+                        "Implémentation d'un solveur pour résoudre le problème.",
+                        "Gestion de l'incertitude pour fournir des stratégies robustes aux aléas."
+                    ]
+                }
+            ]
+        },
+        "vizu": {
+            "banderol": {
+                "title": "Visualisation",
+                "description": "Gagnez du temps dans l'anayse de vos résultats avec des visualisations graphiques qui parlent d'elles-même. Intégrez ces visualisations dans des rapports automatisés ou dans un tableau de bord pour améliorer votre prise de décision.",
+                "anchors": [
+                    {
+                        "URL": "/service-visualisation#graphiques",
+                        "ICON": "chart",
+                        "TYPE": "custom",
+                        "label": "Graphiques"
+                    },
+                    {
+                        "URL": "/service-visualisation#rapports",
+                        "ICON": "fa-solid fa-file",
+                        "TYPE": "fontawesome",
+                        "label": "Rapports automatisés"
+                    },
+                    {
+                        "URL": "/service-visualisation#dashboard",
+                        "ICON": "fa-solid fa-gauge-high",
+                        "TYPE": "fontawesome",
+                        "label": "Tableau de bord"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Graphiques",
+                    "citation": "Une image vaut mille mots.",
+                    "SOURCE": "Confucius",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego illustration"
+                    },
+                    "problematique": "Si vous cherchez une aiguille dans une botte de foin, bruler le foin et vous trouverez votre aiguille. Avec vos données c'est pareil. Sans être un expert en cerveau humain, je vous assure que celui-ci assimile assez mal les tableaux aussi complets soient-ils. En revanche, mettez un code couleur pour chaque modalité de votre variable, montrez l'évolution de la courbe en fonction du temps et devant votre graphique qui parle par lui-même concentrer votre energie à tirer les enseignements du résultats. Plutôt que de citez vos ventes par département, montrez à vos interlocuteurs une représentation géographique des volumes, des evolutions...",
+                    "propositions": [
+                        "Une présentation graphique de vos données sobre pour présenter vos résultats plus efficacement.",
+                        "Des visualisations plus complexes combinant plusieurs variables et/ou échelles (temporelles, géographique) pour afiner votre analyse des données.",
+                        "Des infographies à destination de vos clients pour faire passer votre message."
+                    ]
+                },
+                {
+                    "title": "Rapports automatisés",
+                    "citation": "DRY : Do no repeat yourself.",
+                    "SOURCE": "Andy Hunt & Dave Thomas",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "ctrl-c-v",
+                        "alt": "copier-coller"
+                    },
+                    "problematique": "Que ce soit pour vos clients, l'administration, vos actionnaires ou vos collaborateurs, vos rappors permettent de rentrer dans le détail des chiffres afin de donner les explications et la stratégie à suivre. Si vous êtes l'auteur d'un de ces rapports réguliés et que vous êtes atteind d'une demi tendinite de la main gauche à force d'user du ctrl-c - ctrl-v, vous allez aimez ce que je vous propose. Ne perdez plus votre temps à vous repétez et concentrez vos efforts sur votre vraie plus-value : la discussion des résultats et l'élaboration de piste de reflection et de stratégie.",
+                    "propositions": [
+                        "Génération régulière de rapport sur la base d'un template et d'une source de données"
+                    ]
+                },
+                {
+                    "title": "Tableau de bord",
+                    "citation": "Pilotez votre entreprise comme une formule 1.",
+                    "source": "Moi",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "dashboard",
+                        "alt": "dashboard"
+                    },
+                    "problematique": "Pour accompagner les décisions que vous prenez au quotidien, appuyez vous sur un tableau de bord hergonomique et à jour. Demandez-moi d'y ajouter l'évolution de vos ventes, par jour, par semaine, par mois. C'est vous qui choissisez les indicateurs qui sont pertinent pour votre décision. Incrémentons le tous de quelques filtres pour visualiser rapidement le chiffre réalisé par salarié et par secteur, ou pour déterminer quel client décrocheur vous devez invitez au restaurant le plus vite possible pour remplir votre carnet de commande. Optenez en un click les performances de votre site : le nombre de visite, le taux de conversion, les produits qui marchent le mieux et ceux qui mériterait une petite promo. Ce tableau de bord peut pour tout ou parti être partagé avec vos équipes pour réduire la durée de vos réunions et garder toute votre équipe concernée sur les objectifs du mois et de l'année!",
+                    "propositions": [
+                        "Tableau de bord pour visualiser vos indicateurs clés de performances (KPI).",
+                        "Un outil à destination de toute votre équipes avec une gestion facile des droits de lecture et de modification."
+                    ]
+                }
+            ]
+        },
+        "formation": {
+            "banderol": {
+                "title": "Formations",
+                "description": "Pour faire progresser vos équipes en traitement et analyse de données, je porposes des formations sur-mesures.",
+                "anchors": [
+                    {
+                        "URL": "/service-training#programmation",
+                        "ICON": "fa-brands fa-python",
+                        "TYPE": "fontawesome",
+                        "label": "Programmation"
+                    },
+                    {
+                        "URL": "/service-training#ML",
+                        "ICON": "sum",
+                        "TYPE": "custom",
+                        "label": "Statistique"
+                    },
+                    {
+                        "URL": "/service-training#adhoc",
+                        "ICON": "flexible",
+                        "TYPE": "custom",
+                        "label": "Format <em>ad-hoc</em>"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Programmation",
+                    "citation": "Je choisis une personne fainéante pour faire un travail difficile. Parce qu'une personne fainéante trouvera un moyen simple de le faire.",
+                    "SOURCE": "Bill Gates",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "tableau_periodique_lang",
+                        "alt": "tableau périodique des language de programmation"
+                    },
+                    "problematique": "J'ai coutume de dire que les ordinateurs sont les esclaves des temps modernes. Pour dompter ces supers machines et décupler vos capacitées à faire tout un tas de tâches fastidieuses, répétitives et parfois source d'erreurs humaines, il est cependant nécessaire de maîtriser un ou plusieurs langages de programmation. Je vous propose donc de rajouter de nouvelles cordes à votre arc pour améliorer votre productivité.",
+                    "propositions": [
+                        "Manipulation des données avec dplyr, tidyr ou pandas.",
+                        "Visualisation des données avec ggplot, plotly ou shiny.",
+                        "Language de programmation (R ou python) ou de requête (SQL)."
+                    ]
+                },
+                {
+                    "title": "Statistique",
+                    "citation": "Je ne crois aux statistiques que lorsque je les ai moi-même falsifiées.",
+                    "SOURCE": "Winston Churchill",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "stats_infs",
+                        "alt": "Statistiques inférentielles"
+                    },
+                    "problematique": "Il ne se passe pas un jour sans que vous n'entendiez parler d'une statistique. Les médias, les articles de revue, vos collègues, vos fournisseurs et vos clients vous inondent de ces maths qui font de la science ce qu'elle est. Que ce soit pour comprendre à décortiquer les méthodologies employées pour produire ces statistiques ou pour étayer vos résultats avec des modèles mathématiques fiables, je tenterai de démystifier la complexité qui se cache derrière la boite noire !",
+                    "propositions": [
+                        "Statistiques inférentielles (test d'hypothèse, ANOVA, etc.).",
+                        "Apprentissage supervisé (classNameification ou régression).",
+                        "Apprentissage non supervisé (CAH, kmeans).",
+                        "Analyses factorielles (ACP, ACM, etc.).",
+                        "Validation des modèles (validation croisée, bootstrap, etc.)"
+                    ]
+                },
+                {
+                    "title": "Format <em>ad-hoc</em>",
+                    "citation": "Venez comme vous êtes.",
+                    "SOURCE": "McDonald's",
+                    "h3": [
+                        "La problématique :",
+                        "Ce que je vous propose :"
+                    ],
+                    "img": {
+                        "NAME": "cameleon",
+                        "alt": "Caméléon, adaptable, flexible"
+                    },
+                    "problematique": "Parce que vous avez des niveaux différents, des disponibilités différentes et des objectifs différents, je propose un maximum de flexibilité.",
+                    "propositions": [
+                        "Formation en petit comité, webinaire ou conférence.",
+                        "Durée, nombre de participants et fréquence modulable.",
+                        "Contenu et objectifs adaptés à vos besoins"
+                    ]
+                }
+            ]
+        }
+    },
+    "en": {
+        "data": {
+            "banderol": {
+                "title": "Data collection, cleaning and storage",
+                "description": "Creation of a pipeline to integrate the data needed for your business. To feed your dashboard or your predictive models.",
+                "anchors": [
+                    {
+                        "URL": "/service-data#collect",
+                        "ICON": "fa-solid fa-hand-holding",
+                        "label": "Collecte"
+                    },
+                    {
+                        "URL": "/service-data#clean",
+                        "ICON": "fa-solid fa-broom",
+                        "label": "Cleaning"
+                    },
+                    {
+                        "URL": "/service-data#stock",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Storage"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Data collection",
+                    "citation": "Data... The black gold of the XXI<sup>th</sup> century.",
+                    "source": "undetermined source",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "oil_barril",
+                        "alt": "Oil cans"
+                    },
+                    "problematique": "Data is everywhere. Some of it is in your possession (your sensors, your measurements, your photos, etc.), some is on the net (API, website) or in other databases you have access to. Sometimes it is simply not recorded, especially by your users, employees etc.",
+                    "propositions": [
+                        "Creation of a CRM type application to capture your data.",
+                        "SQL queries to query your own databases.",
+                        "Web API to feed your database with external databases.",
+                        "Web Scrappers to use the content of web pages."
+                    ]
+                },
+                {
+                    "title": "Data cleansing",
+                    "citation": "Rice is not cooked in dishwater.",
+                    "source": "Proverbs Georgia",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "oil_barril",
+                        "alt": "Oil cans"
+                    },
+                    "problematique": "Black gold is in your barrel, but it's only raw oil for now. Your data must be homogenized to make it compatible with visualization or machine learning tools. This sometimes laborious and often underestimated step is however essential for the reliability of your models. A good preparation of the data also ensures an obvious saving of time during the modeling phase.",
+                    "propositions": [
+                        "Document parsing (html, xml, pdf) to extract information.",
+                        "Homogenization of variables (names, coding of modalities, units).",
+                        "Outlier detection.",
+                        "Imputation of missing values."
+                    ]
+                },
+                {
+                    "title": "Data storage",
+                    "citation": "A place for everything and everything in its place.",
+                    "SOURCE": "Samuel Smile",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego"
+                    },
+                    "problematique": "The organization of your <strong>data</strong> should not be left to chance especially when their variety and volume is important. The use of relational databases notably allows you to schematize the organization of your data to limit redundancies and facilitate extractions. For projects that are constantly evolving, noSQL solutions are sometimes more appropriate because they provide more flexibility. The storage must both allow you to secure your data by making replicates and to distribute them so that they are accessible by a set of users that you have defined.",
+                    "propositions": [
+                        "Data modeling to use relational databases.",
+                        "Flexible storage as the project evolves with noSQL databases.",
+                        "Storage distribution to ensure accessibility of your data"
+                    ]
+                }
+            ]
+        },
+        "ml": {
+            "banderol": {
+                "title": "Artificial intelligence",
+                "description": "Creation of models to analyze and predict.",
+                "anchors": [
+                    {
+                        "URL": "/service-IA#predire",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Predict"
+                    },
+                    {
+                        "URL": "/service-IA#comprendre",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Understand"
+                    },
+                    {
+                        "URL": "/service-IA#decider",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Decide"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Predict",
+                    "citation": "A wise man is worth two.",
+                    "source": "Popular proverb",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "oil_barril",
+                        "alt": "Oil cans"
+                    },
+                    "problematique": "Machine learning allows you to estimate what happens in a given context. Each prediction allows you to anticipate the realization of an event, to prevent a breakdown and avoid stopping the production line, to treat a disease at an early stage before the health of an individual/animal/plant deteriorates. As for the weather, get also forecasts on your sales forecasts",
+                    "propositions": [
+                        "Time series model to predict the future.",
+                        "Comparison of different regression/classNameification algorithms to improve your predictions.",
+                        "Validation of the model to ensure its reliability"
+                    ]
+                },
+                {
+                    "title": "Understand",
+                    "citation": "A scientist build in order to learn; an engineer learns in order to build.",
+                    "SOURCE": "Fred Brooks",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "oil_barril",
+                        "alt": "Oil cans"
+                    },
+                    "problematique": "Sometimes predicting what happens is not enough to answer the problem and it is necessary to understand the mechanisms that are at play in a phenomenon of interest. For example, deciphering which explanatory variables have an impact on your variable to be explained and with what relative importance in order to modify your way of producing. Understanding the structure of your data can also be decisive, for example, by identifying typical customer profiles in order to propose an adapted and personalized offer.",
+                    "propositions": [
+                        "Inferential statistics and hypothesis testing to scientifically process your experiments.",
+                        "Sensitivity analysis to identify the main factors influencing your variable of interest.",
+                        "Unsupervised learning to understand the structure of your data."
+                    ]
+                },
+                {
+                    "title": "Decide",
+                    "citation": "To choose is to give up.",
+                    "SOURCE": "André Gide",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego"
+                    },
+                    "problematique": "Deciding often means making choices between several options. Decision support algorithms take into account your objectives and constraints to find the solution that best meets your expectations. Allocate your resources more efficiently by minimizing a production cost or by finding a work organization that matches your teams and the different specialties of each. Set your selling price in an optimal way to maximize your profits by taking into account the relationship between price and volume sold.",
+                    "propositions": [
+                        "Formalization of the optimization problem to define mathematically the constraints and objectives of your problem.",
+                        "Implementation of a solver to solve the problem.",
+                        "Uncertainty management to provide strategies that are robust to hazards."
+                    ]
+                }
+            ]
+        },
+        "vizu": {
+            "banderol": {
+                "title": "Visualization",
+                "description": "Save time analyzing your results with graphical visualizations that speak for themselves. Integrate these visualizations into automated reports or a dashboard to improve your decision making.",
+                "anchors": [
+                    {
+                        "URL": "/service-visualisation#graphiques",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Graphics"
+                    },
+                    {
+                        "URL": "/service-visualisation#rapports",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Automated reports"
+                    },
+                    {
+                        "URL": "/service-visualisation#dashboard",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Dashboard"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Graphics",
+                    "citation": "A picture is worth a thousand words.",
+                    "SOURCE": "Confucius",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego illustration"
+                    },
+                    "problematique": "If you are looking for a needle in a haystack, burn the hay and you will find your needle. With your data it's the same. Without being an expert in the human brain, I assure you that it assimilates tables rather badly, no matter how complete they are. On the other hand, put a color code for each modality of your variable, show the evolution of the curve as a function of time and in front of your graph which speaks for itself concentrate your energy to draw the lessons from the results. Instead of quoting your sales by department, show your interlocutors a geographical representation of volumes, evolutions...",
+                    "propositions": [
+                        "A sober graphical presentation of your data to present your results more effectively.",
+                        "More complex visualizations combining several variables and/or scales (temporal, geographical) to enhance your data analysis.",
+                        "Infographics for your customers to get your message across."
+                    ]
+                },
+                {
+                    "title": "Automated reports",
+                    "citation": "DRY : Do no repeat yourself.",
+                    "SOURCE": "Andy Hunt & Dave Thomas",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "ctrl-c-v",
+                        "alt": "copier-coller"
+                    },
+                    "problematique": "Whether it is for your customers, the administration, your shareholders or your employees, your reports allow you to go into the details of the figures in order to give explanations and the strategy to follow. If you are the author of one of these regular reports and you have half a tendonitis in your left hand from using ctrl-c - ctrl-v, you will like what I propose. Don't waste your time to find your way and concentrate your efforts on your real added value: the discussion of results and the elaboration of reflection and strategy tracks.",
+                    "propositions": [
+                        "Regular report generation based on a template and a data source"
+                    ]
+                },
+                {
+                    "title": "Dashboard",
+                    "citation": "Drive your business like a Formula 1 car.",
+                    "source": "Moi",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego"
+                    },
+                    "problematique": "To accompany the decisions you make on a daily basis, rely on a hergonomic and up-to-date dashboard. Ask me to add the evolution of your sales, per day, per week, per month. You choose the indicators that are relevant to your decision. Let's increment it all with some filters to quickly visualize the figure realized by employee and by sector, or to determine which customer drop out you have to invite to the restaurant as soon as possible to fill your order book. Get the performance of your site in one click: the number of visits, the conversion rate, the products that work best and those that deserve a small promotion. This dashboard can be shared with all or part of your team to reduce the length of your meetings and keep your whole team focused on the objectives of the month and the year!",
+                    "propositions": [
+                        "Dashboard to view your key performance indicators (KPI).",
+                        "A tool for your entire team with easy management of read and modify rights."
+                    ]
+                }
+            ]
+        },
+        "formation": {
+            "banderol": {
+                "title": "Formations",
+                "description": "To help your team progress in data processing and analysis, I offer customized training.",
+                "anchors": [
+                    {
+                        "URL": "/service-training#programmation",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Programming"
+                    },
+                    {
+                        "URL": "/service-training#ML",
+                        "ICON": "fa-solid fa-database",
+                        "label": "Machine learning"
+                    },
+                    {
+                        "URL": "/service-training#adhoc",
+                        "ICON": "fa-solid fa-database",
+                        "label": "<em>ad-hoc</em> format"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "title": "Programming",
+                    "citation": "A picture is worth a thousand words.",
+                    "SOURCE": "Confucius",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego illustration"
+                    },
+                    "problematique": "I usually say that computers are the slaves of modern times. To tame these great machines and increase your capacity to do a lot of tedious, repetitive and sometimes human error-prone tasks, it is necessary to master one or more programming languages. I propose you to add new strings to your bow to improve your productivity.",
+                    "propositions": [
+                        "Data manipulation with dplyr, tidyr or pandas.",
+                        "Data visualization with ggplot, plotly or shiny.",
+                        "Programming language (R or python) or query language (SQL)."
+                    ]
+                },
+                {
+                    "title": "Machine learning",
+                    "citation": "DRY : Do no repeat yourself.",
+                    "SOURCE": "Andy Hunt & Dave Thomas",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "ctrl-c-v",
+                        "alt": "copier-coller"
+                    },
+                    "problematique": "Whether it is for",
+                    "propositions": [
+                        "Inferential statistics (hypothesis testing, ANOVA, etc.).",
+                        "Supervised learning (classNameification or regression).",
+                        "Unsupervised learning (CAH, kmeans).",
+                        "Factor analysis (PCA, MCA, etc.).",
+                        "Model validation (cross validation, bootstrap, etc.)"
+                    ]
+                },
+                {
+                    "title": "<em>ad-hoc</em> format",
+                    "citation": "Drive your business like a Formula 1 car.",
+                    "source": "Moi",
+                    "h3": [
+                        "Issue:",
+                        "What I suggest:"
+                    ],
+                    "img": {
+                        "NAME": "lego",
+                        "alt": "lego"
+                    },
+                    "problematique": "Because you have different levels, different availability and different goals, I offer maximum flexibility.",
+                    "propositions": [
+                        "Small group training, webinar or conference.",
+                        "Duration, number of participants and frequency can be adjusted.",
+                        "Content and objectives adapted to your needs"
+                    ]
+                }
+            ]
+        }
+    }
+}

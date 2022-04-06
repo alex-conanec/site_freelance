@@ -1,0 +1,67 @@
+ul.skill-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+ul.skill-list > li{
+    padding-inline: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.info-lang{
+    background-color: red;
+    color: white;
+    -webkit-print-color-adjust: exact;
+}
+  
+.info-tool{
+    background-color: orange;
+    color: black;
+    -webkit-print-color-adjust: exact;
+}
+
+.math-stat{
+    background-color: blue;
+    color: white;
+    -webkit-print-color-adjust: exact;
+}
+
+.math-algo{
+    background-color: lightblue;
+    color: black;
+    -webkit-print-color-adjust: exact;
+}
+
+.exp-bio{
+    background-color: green;
+    color: white;
+    -webkit-print-color-adjust: exact;
+}
+
+.exp-agri{
+    background-color: yellowgreen;
+    color: black;
+    -webkit-print-color-adjust: exact;
+}
+
+.trans-com{
+    background-color: gray;
+    color: white;
+    -webkit-print-color-adjust: exact;
+}
+
+.trans-orga{
+    background-color: purple;
+    color: white;
+    -webkit-print-color-adjust: exact;
+}

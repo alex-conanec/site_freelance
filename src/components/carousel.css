@@ -1,0 +1,91 @@
+/* carousel */
+section#trust2{
+    padding: 30px;
+}
+  
+section#trust2 > h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+  
+  
+.carousel-inner{
+    background-color: rgba(0, 160, 255, .6);
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-inline: 12%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 5px;
+}
+  
+  
+.carousel-item{
+    padding: 0;
+}
+  
+.recomandation_author{
+    padding-bottom: 10px;
+    text-align: end;
+}
+  
+.guillemet{
+    position: absolute;
+    left: 3%;
+}
+  
+div.carousel-indicators{
+    margin-bottom: 0;
+}
+  
+  
+@media (max-width: 600px){
+    section#trust2{
+      padding-inline: 5px;
+    }
+  
+    .guillemet{
+      position: absolute;
+      left: 1%;
+      font-size: larger;
+    }
+    
+}
+
+section#trust > div.mycarousel-outer > div.button_indicator{
+    display:flex; 
+    gap: 2px;
+    justify-content:center; 
+    align-items: flex-start;
+    margin-top:-8px;
+}
+  
+section#trust > div.mycarousel-outer > div.button_indicator > button{
+    height: 5px;
+    width: 30px;
+    border: none;
+}
+  
+section#trust > div.mycarousel-outer > div.button_indicator > button.active{
+    background-color: gray;
+}
+  
+section#trust > div.mycarousel-outer > button{
+    background-color: blue;
+    border: none;
+    position: absolute;
+    top : 50%;
+}
+  
+section#trust > div.mycarousel-outer > button.prev_item{
+    left: 2%;
+    transform: translateY(-50%) translateX(-2%);
+}
+  
+section#trust > div.mycarousel-outer > button.next_item{
+    right: 2%;
+    transform: translateY(-50%) translateX(-2%);
+}
+  
+section#trust > div.mycarousel-outer > button > i.arrow-icon{
+    font-size: 3em;
+}

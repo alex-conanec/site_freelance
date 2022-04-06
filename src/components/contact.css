@@ -1,0 +1,99 @@
+/* contact */
+section#contact > form{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+input.identification{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+  
+/* input.fname{
+    width: 160px; */
+    /* background-image : none !important; */
+/* } */
+  
+/* input.lname{
+    width: 160px;
+} */
+
+input.name{
+    width: 300px;
+}
+  
+input.email{
+    width: 300px;
+}
+  
+textarea.content{
+    height: 400px;
+    width: 100%;
+}
+  
+input.submit{
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+}
+  
+section#contact > h2{
+    text-align: center;
+}
+  
+section#contact{
+    padding: 30px;
+    background-color: rgba(0, 160, 255, .6);
+}
+  
+section#contact > form{
+    padding-top: 10px;
+}
+  
+  
+div.errors{
+    position: relative;
+}
+  
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 9px solid orange;
+    position: absolute;
+    top:79%;
+    right: 21%;
+}
+  
+div.errors > ul{
+    position: absolute;
+    top: 101%;
+    right: 4%;
+    width: 95%;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 5px;
+    font-size: smaller;
+}
+  
+@media (max-width: 400px){
+    input.email{
+      width: 100%;
+    }
+
+    input.name{
+        width: 100%;
+    }
+
+    section#contact > form{
+        padding: 0;
+    }
+    
+}

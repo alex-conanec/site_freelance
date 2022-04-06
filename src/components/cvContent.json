@@ -1,0 +1,1215 @@
+{
+    "fr": {
+        "entete": {
+            "NAME": "Alexandre CONANEC",
+            "job": "Data Scientist",
+            "age": "26 ans",
+            "CITY": "Bordeaux",
+            "EMAIL": "alexandre@conanec.com",
+            "car": "Véhiculé",
+            "version_longue": "Version longue",
+            "version_courte": "Version 1 page"
+        },
+        "skills": {
+            "title": "Compétences",
+            "skills_clusters": [
+                {
+                    "name": "Informatique",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Language",
+                            "class": "info-lang",
+                            "skills_list": [
+                                "python",
+                                "R",
+                                "JavaScript",
+                                "SQL",
+                                "html",
+                                "CSS",
+                                "latex"
+                            ]
+                        },
+                        {
+                            "name": "Outils",
+                            "class": "info-tool",
+                            "skills_list": [
+                                "ReactJS",
+                                "Django",
+                                "Shiny",
+                                "unix",
+                                "docker",
+                                "postgreSQL",
+                                "mondoDB",
+                                "Rstudio",
+                                "Jupyter notebook",
+                                "rmarkdown",
+                                "VScode",
+                                "Git",
+                                "Scrapper",
+                                "WebApi"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mathématiques",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Statistique",
+                            "class": "math-stat",
+                            "skills_list": [
+                                "Statistiques inférentielles",
+                                "Analyse factorielle",
+                                "Probabilités",
+                                "Estimateur à noyau",
+                                "Régression quantile",
+                                "Régression Pénalisée",
+                                "Optimisation"
+                            ]
+                        },
+                        {
+                            "name": "Algorithmique",
+                            "class": "math-algo",
+                            "skills_list": [
+                                "CAH",
+                                "kmeans",
+                                "KNN",
+                                "Lasso",
+                                "Ridge",
+                                "Algorithmes évolutionnaires",
+                                "Random Forest",
+                                "Arbre de décision"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Expertise en agriculture",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Biologie",
+                            "class": "exp-bio",
+                            "skills_list": [
+                                "Physiologie animale",
+                                "Acides gras",
+                                "Alimentation",
+                                "Système de culture"
+                            ]
+                        },
+                        {
+                            "name": "Le monde agricole",
+                            "class": "exp-agri",
+                            "skills_list": [
+                                "Exploitation",
+                                "Recherche",
+                                "Filière de la viande"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Transverses",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Communication",
+                            "class": "trans-com",
+                            "skills_list": [
+                                "Anglais",
+                                "Parler en public",
+                                "Support de présentation"
+                            ]
+                        },
+                        {
+                            "name": "Organisation",
+                            "class": "trans-orga",
+                            "skills_list": [
+                                "Gestion de projet",
+                                "Autonomie",
+                                "Travail en équipe"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "diplomes": {
+            "title": "Diplômes & Formations",
+            "diplomes_list": [
+                {
+                    "title": "Doctorat en mathématiques appliquées et calcul scientifique",
+                    "ecole": "Université de Bordeaux, école doctorale de mathématiques et d'informatique (EDMI)",
+                    "date": "2018-2021",
+                    "lieu": "Talence, France"
+                },
+                {
+                    "title": "Ingénieur en Agriculture",
+                    "ecole": "École supérieure d'agriculture (ESA)",
+                    "date": "2013-2018",
+                    "lieu": "Angers, France"
+                },
+                {
+                    "title": "ERASMUS",
+                    "ecole": "Van Hall Larenstein, Université de sciences appliquées",
+                    "date": "2017",
+                    "lieu": "Leeuwarden, Pays-Bas"
+                }
+            ]
+        },
+        "experiences": {
+            "title": "Expériences",
+            "list": [
+                {
+                    "title": "Freelance",
+                    "COMPANY": "Aptimiz",
+                    "date": "2021",
+                    "lieu": "Angers, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Estimateur à noyau"
+                        },
+                        {
+                            "class": "info-tool",
+                            "label": "WebApi"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "python"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomie"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Support de présentation"
+                        }
+                    ],
+                    "topic": {
+                        "label": "Sujet :",
+                        "content": [
+                            "Développement d'un algorithme de traitement des données géolocalisées des utilisateurs de l'application."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Contact entreprise :",
+                            "list": [
+                                {
+                                    "NAME": "Simon Denonnain (CEO)",
+                                    "URL": "https://www.linkedin.com/in/simon-denonnain-84666b12b/"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Freelance",
+                    "COMPANY": "Syndicat Viticole de Pessac-Léognan",
+                    "date": "2021",
+                    "lieu": "Pessac, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Statistiques inférentielles"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Analyse factorielle"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Lasso"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomie"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Parler en public"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Support de présentation"
+                        }
+                    ],
+                    "topic": {
+                        "label": "Sujet :",
+                        "content": [
+                            "Traitement de données sensorielles et étude des facteurs influençant la qualité et le potentiel de vieillissement des vins blancs de l'appelation."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Contact entreprise :",
+                            "list": [
+                                {
+                                    "NAME": "Catherine Barbier-Lalève (Présidente)",
+                                    "URL": "https://www.linkedin.com/in/catherine-barbier-laleve-56287217b/?originalSubdomain=fr"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Doctorant en mathématiques appliquées",
+                    "COMPANY": "Bordeaux Science Agro",
+                    "date": "2018-2021",
+                    "lieu": "Gradignan, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Probabilités"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Estimateur à noyau"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Régression quantile"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Régression Pénalisée"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Ridge"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Optimisation"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Algorithmes évolutionnaires"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Random Forest"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "latex"
+                        },
+                        {
+                            "class": "info-tool",
+                            "label": "Shiny"
+                        },
+                        {
+                            "class": "info-tool",
+                            "label": "docker"
+                        },
+                        {
+                            "class": "exp-bio",
+                            "label": "Acides gras"
+                        },
+                        {
+                            "class": "exp-agri",
+                            "label": "Filière de la viande"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Recherche"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomie"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Gestion de projet"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Parler en public"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Support de présentation"
+                        },
+                        {
+                            "class": "trans-com",
+                            "label": "Anglais"
+                        }
+                    ],
+                    "topic": {
+                        "label": "Sujet :",
+                        "content": [
+                            "Modélisation de l'optimisation du pilotage des performances des bovins et de la qualité de leur viande."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Laboratoire :",
+                            "list": [
+                                {
+                                    "NAME": "Inria Bordeau-Sud-Ouest",
+                                    "URL": "https://www.inria.fr/en/inria-centre-university-bordeaux"
+                                },
+                                {
+                                    "NAME": "INRAE Centre Auvergne Rhône-Alpes",
+                                    "URL": "https://www.inrae.fr/en/centres/clermont-auvergne-rhone-alpes"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Encadrants :",
+                            "list": [
+                                {
+                                    "NAME": "Marie-Pierre Ellies-Oury (INRAE)",
+                                    "URL": "https://fr.linkedin.com/in/marie-pierre-ellies-oury-9a1a5811a"
+                                },
+                                {
+                                    "NAME": "Jérôme Saracco (Inria)",
+                                    "URL": "https://jerome-saracco.fr/"
+                                },
+                                {
+                                    "NAME": "Marie Chavent (Inria)",
+                                    "URL": "http://www.math.u-bordeaux.fr/~mchave100p/"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Enseignant vacataire",
+                    "COMPANY": "Bordeaux Science Agro",
+                    "date": "2018-2021",
+                    "lieu": "Gradignan, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Statistiques inférentielles"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Analyse factorielle"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "kmeans"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "CAH"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "trans-com",
+                            "label": "Parler en public"
+                        }
+                    ],
+                    "topic": {
+                        "label": "Séances :",
+                        "content": [
+                            "TD de statistique inférentielle.",
+                            "TD de statistique multivariée",
+                            "TP programmation sur R.",
+                            "CM Traitement de données d'analyse sensorielle."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Responsables des modules :",
+                            "list": [
+                                {
+                                    "NAME": "Jean-Pierre Da Costa",
+                                    "URL": "https://fr.linkedin.com/in/jean-pierre-da-costa-07bb7613a"
+                                },
+                                {
+                                    "NAME": "Lionel Bombrun",
+                                    "URL": "https://fr.linkedin.com/in/lionel-bombrun-bb417bb4"
+                                },
+                                {
+                                    "NAME": "Muriel Denayrolles",
+                                    "URL": "https://fr.linkedin.com/in/muriel-denayrolles-317696108"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Stage R&D",
+                    "COMPANY": "Zootests",
+                    "date": "2017",
+                    "lieu": "Ploufragan, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Analyse factorielle"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomie"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Gestion de projet"
+                        }
+                    ],
+                    "topic": {
+                        "label": "Sujet :",
+                        "content": [
+                            "Mise en place d'une détection mécanique du Wooden Breast des filets de poulet."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Encadrants :",
+                            "list": [
+                                {
+                                    "NAME": "Marie-Claire Musy (R&D)",
+                                    "URL": "https://fr.linkedin.com/in/marie-claire-musy-43ba7198"
+                                },
+                                {
+                                    "NAME": "Christophe Alleno (PDG)",
+                                    "URL": "https://fr.linkedin.com/in/christophe-alleno-bbb08989"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "dev": {
+            "title": "Développement informatique",
+            "list": [
+                {
+                    "name": "Site freelance",
+                    "date": "2022",
+                    "repo": {
+                        "URL": "https://github.com/alex-conanec/site_freelance",
+                        "TEXT": "alex-conanec/site_freelance",
+                        "ICON": "fa-brands fa-github"
+                    },
+                    "skills_list": [
+                        {
+                            "class": "info-tool",
+                            "label": "ReactJS"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "Javascript"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "html"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "CSS"
+                        }
+                    ],
+                    "object": {
+                        "title": "Objet :",
+                        "content": "Création d'un site internet vitrine pour promouvoir les services que je propose en freelance."
+                    }
+                },
+                {
+                    "name": "MOOVaR",
+                    "date": "2021",
+                    "repo": {
+                        "URL": "https://github.com/alex-conanec/MOOVaR",
+                        "TEXT": "alex-conanec/MOOVaR",
+                        "ICON": "fa-brands fa-github"
+                    },
+                    "skills_list": [
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Optimisation"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Multi-objectifs"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Data-driven"
+                        }
+                    ],
+                    "object": {
+                        "title": "Objet :",
+                        "content": "Package R d'optimisation multi-objectifs data-driven."
+                    }
+                }
+            ]
+        },
+        "publis": {
+            "title": "Publications scientifiques",
+            "articles": {
+                "title": "Articles",
+                "list": [
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Campo M.",
+                            "Richardson I.",
+                            "Ertbjerg P.",
+                            "Failla S.",
+                            "Panea B.",
+                            "Chavent M.",
+                            "Saracco J.",
+                            "Williams J-L.",
+                            "Ellies-Oury M-P",
+                            "Hocquette J-F."
+                        ],
+                        "DATE": "2021",
+                        "TITLE": "Has breed any effect on beef sensory quality?",
+                        "REVUE": "Livestock Science",
+                        "NUM": "250",
+                        "DOI": "https://dx.doi.org/10.1016/j.livsci.2021.104548"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Ellies-Oury M-P.",
+                            "Hocquette J-F.",
+                            "Chriki S.",
+                            "Conanec A.",
+                            "Farmer L.",
+                            "Chavent M.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2020",
+                        "TITLE": "Various Statistical Approaches to Assess and Predict Carcass and Meat Quality Traits.",
+                        "REVUE": "Foods",
+                        "NUM": "9(4), 525",
+                        "DOI": "https://doi.org/10.3390/foods9040525"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Picard B.",
+                            "Durand D.",
+                            "Cantalapiedra-Hijar G.",
+                            "Chavent M.",
+                            "Denoyelle C.",
+                            "Gruffat D.",
+                            "Normand J.",
+                            "Saracco J.",
+                            "Ellies-Oury M-P."
+                        ],
+                        "DATE": "2019",
+                        "TITLE": "New Approach Studying Interactions Regarding Trade-Off between Beef Performances and Meat Qualities.",
+                        "REVUE": "Foods",
+                        "NUM": "8(6), 197",
+                        "DOI": "https://doi.org/10.3390/foods8060197"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Ellies-Oury M-P.",
+                            "Chavent M.",
+                            "Conanec A.",
+                            "Bonnet M.",
+                            "Picard B.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2019",
+                        "TITLE": "Statistical model choice including variable selection based on variable importance: A relevant way for biomarkers selection to predict meat tenderness.",
+                        "REVUE": "Scientific Report",
+                        "NUM": "9, 10014",
+                        "DOI": "https://doi.org/10.1038/s41598-019-46202-y"
+                    }
+                ]
+            },
+            "communications": {
+                "title": "Communications",
+                "list": [
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Chavent M.",
+                            "Ellies-Oury M-P.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2021",
+                        "TITLE": "Une approche permettant de maîtriser le niveau de confiance en optimisation multi-objectifs ``data-driven''.",
+                        "CONF": "52e Journées de la Statistique",
+                        "lieu": "Nice, France",
+                        "URL": "https://jds2021.sciencesconf.org/data/pages/book_jds2021_fr_compressed.pdf"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Ramadan L.",
+                            "Chriki S.",
+                            "Ellies-Oury M-P."
+                        ],
+                        "DATE": "2020",
+                        "TITLE": "Méthodologie d’évaluation multicritère de la qualité de la viande bovine.",
+                        "CONF": "Rencontres Recherches Ruminants",
+                        "lieu": "Paris, France",
+                        "URL": "http://www.journees3r.fr/IMG/pdf/qualite_-_20201002-2.pdf"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Chavent M.",
+                            "Ellies-Oury M-P.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2020",
+                        "TITLE": "Une méthodologie computationnelle pour faire de l'optimisation multi-objectifs en élevage de précision.",
+                        "CONF": "52e Journées de la Statistique",
+                        "lieu": "Nice, France",
+                        "URL": "https://jds2020.sciencesconf.org/data/pages/book_jds2020_fr_compressed.pdf"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Picard B.",
+                            "Cantalapiedra-Hijar G.",
+                            "Chavent M.",
+                            "Denoyelle C.",
+                            "Gruffat D.",
+                            "Normand J.",
+                            "Saracco J.",
+                            "Ellies-Oury M-P."
+                        ],
+                        "DATE": "2018",
+                        "TITLE": "Étude des interactions et du compromis entre les performances de 30 génisses Blonde d’Aquitaine et les qualités nutritionnelle et sensorielle de la viande.",
+                        "CONF": "Rencontres Recherches Ruminants",
+                        "lieu": "Paris, France",
+                        "URL": "http://www.journees3r.fr/IMG/pdf/3r2018_session_8_qualite_et_perception_complet.pdf"
+                    }
+                ]
+            }
+        }
+    },
+    "en": {
+        "entete": {
+            "NAME": "Alexandre CONANEC",
+            "job": "Data Scientist",
+            "age": "26 years old",
+            "CITY": "Bordeaux",
+            "EMAIL": "alexandre@conanec.com",
+            "car": "Vehicle",
+            "version_longue": "Long version",
+            "version_courte": "Version 1 page"
+        },
+        "skills": {
+            "title": "Skills",
+            "skills_clusters": [
+                {
+                    "name": "Computer Science",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Language",
+                            "class": "info-lang",
+                            "skills_list": [
+                                "python",
+                                "R",
+                                "JavaScript",
+                                "SQL",
+                                "html",
+                                "CSS",
+                                "latex"
+                            ]
+                        },
+                        {
+                            "name": "Tools",
+                            "class": "info-tool",
+                            "skills_list": [
+                                "Shiny",
+                                "flask",
+                                "kivy",
+                                "unix",
+                                "docker",
+                                "postgreSQL",
+                                "mondoDB",
+                                "Rstudio",
+                                "Jupyter notebook",
+                                "rmarkdown",
+                                "Spyder",
+                                "VScode",
+                                "Git"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mathematics",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Statistics",
+                            "class": "math-stat",
+                            "skills_list": [
+                                "Inferential statistics",
+                                "Factor analysis",
+                                "Probabilités",
+                                "Kernel estimator",
+                                "Quantile regression"
+                            ]
+                        },
+                        {
+                            "name": "Algorithms",
+                            "class": "math-algo",
+                            "skills_list": [
+                                "CAH",
+                                "kmeans",
+                                "KNN",
+                                "Evolutionary algorithms",
+                                "Random Forest",
+                                "Decision tree"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Expertise in agriculture",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Biology",
+                            "class": "exp-bio",
+                            "skills_list": [
+                                "Animal Physiology",
+                                "Acides gras",
+                                "Power supply",
+                                "Growing system"
+                            ]
+                        },
+                        {
+                            "name": "Le monde agricole",
+                            "class": "exp-agri",
+                            "skills_list": [
+                                "Operation",
+                                "Research",
+                                "Meat industry"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Transverses",
+                    "skills_sub_clusters": [
+                        {
+                            "name": "Communication",
+                            "class": "trans-com",
+                            "skills_list": [
+                                "English",
+                                "Public speaking",
+                                "Presentation material"
+                            ]
+                        },
+                        {
+                            "name": "Organization",
+                            "class": "trans-orga",
+                            "skills_list": [
+                                "Project management",
+                                "Autonomies",
+                                "Working in a team"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "diplomes": {
+            "title": "Diplomas & Training",
+            "diplomes_list": [
+                {
+                    "title": "D. in Applied Mathematics and Scientific Computing",
+                    "ecole": "University of Bordeaux, doctoral school of mathematics and computer science (EDMI)",
+                    "date": "2018-2021",
+                    "lieu": "Talence, France"
+                },
+                {
+                    "title": "Agricultural Engineer",
+                    "ecole": "Higher School of Agriculture (ESA)",
+                    "date": "2013-2018",
+                    "lieu": "Angers, France"
+                },
+                {
+                    "title": "ERASMUS",
+                    "ecole": "Van Hall Larenstein, University of Applied Sciences",
+                    "date": "2017",
+                    "lieu": "Leeuwarden, Pays-Bas"
+                }
+            ]
+        },
+        "experiences": {
+            "title": "Experiences",
+            "list": [
+                {
+                    "title": "Freelance",
+                    "COMPANY": "Aptimiz",
+                    "date": "2021",
+                    "lieu": "Angers, France",
+                    "topic": {
+                        "label": "Topic:",
+                        "content": [
+                            "Automatic detection of agricultural plot outlines from GPS data of the farmer's cell phone."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Company contact :",
+                            "list": [
+                                {
+                                    "NAME": "Simon Denonain (CEO)",
+                                    "URL": "#"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Freelance",
+                    "COMPANY": "Syndicat Viticole de Pessac-Léognan",
+                    "date": "2021",
+                    "lieu": "Pessac, France",
+                    "topic": {
+                        "label": "Topic:",
+                        "content": [
+                            "Processing of sensory data and study of factors influencing the quality and aging potential of white wines of the appellation."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Company contact :",
+                            "list": [
+                                {
+                                    "NAME": "Catherine Barbier-Lalève (Présidente)",
+                                    "URL": "#"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Doctoral student in applied mathematics",
+                    "COMPANY": "Bordeaux Science Agro",
+                    "date": "2018-2021",
+                    "lieu": "Gradignan, France",
+                    "topic": {
+                        "label": "Topic:",
+                        "content": [
+                            "Modeling the optimization of cattle performance and meat quality."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Laboratory:",
+                            "list": [
+                                {
+                                    "NAME": "Inria Bordeau-Sud-Ouest",
+                                    "URL": "#"
+                                },
+                                {
+                                    "NAME": "INRAE Centre Auvergne Rhône-Alpes",
+                                    "URL": "#"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Supervisors:",
+                            "list": [
+                                {
+                                    "NAME": "Marie-Pierre Ellies (INRAE)",
+                                    "URL": "#"
+                                },
+                                {
+                                    "NAME": "Jérôme Saracco (Inria)",
+                                    "URL": "#"
+                                },
+                                {
+                                    "NAME": "Marie Chavent (Inria)",
+                                    "URL": "#"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Temporary teacher",
+                    "COMPANY": "Bordeaux Science Agro",
+                    "date": "2018-2021",
+                    "lieu": "Gradignan, France",
+                    "topic": {
+                        "label": "Sessions :",
+                        "content": [
+                            "TD in inferential statistics.",
+                            "Multivariate statistics tutorial",
+                            "TP programming on R.",
+                            "CM Sensory analysis data processing."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Module Leaders:",
+                            "list": [
+                                {
+                                    "NAME": "Jean-Pierre Da Costa",
+                                    "URL": "#"
+                                },
+                                {
+                                    "NAME": "Lionel Bombrun",
+                                    "URL": "#"
+                                },
+                                {
+                                    "NAME": "Muriel Denayrolles",
+                                    "URL": "#"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Stage R&D",
+                    "COMPANY": "Zootests",
+                    "date": "2017",
+                    "lieu": "Ploufragan, France",
+                    "topic": {
+                        "label": "Topic:",
+                        "content": [
+                            "Implementation of a mechanical detection of the Wooden Breast of chicken fillets."
+                        ]
+                    },
+                    "contact_clusters": [
+                        {
+                            "label": "Supervisors:",
+                            "list": [
+                                {
+                                    "NAME": "Marie-Claire Musy (R&D)",
+                                    "URL": "#"
+                                },
+                                {
+                                    "NAME": "Christophe Alleno (PDG)",
+                                    "URL": "#"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "dev": {
+            "title": "Computer development",
+            "list": [
+                {
+                    "name": "Site freelance",
+                    "date": "2022",
+                    "repo": {
+                        "URL": "https://github.com/alex-conanec/site_freelance",
+                        "TEXT": "alex-conanec/site_freelance",
+                        "ICON": "fa-brands fa-github"
+                    },
+                    "skills_list": [
+                        {
+                            "class": "info-tool",
+                            "label": "ReactJS"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "Javascript"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "html"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "CSS"
+                        }
+                    ],
+                    "object": {
+                        "title": "Subject:",
+                        "content": "Creation of a showcase website to promote the services I offer as a freelancer."
+                    }
+                },
+                {
+                    "name": "MOOVaR",
+                    "date": "2021",
+                    "repo": {
+                        "URL": "https://github.com/alex-conanec/MOOVaR",
+                        "TEXT": "alex-conanec/MOOVaR",
+                        "ICON": "fa-brands fa-github"
+                    },
+                    "skills_list": [
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Optimization"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Multi-lens"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Data-driven"
+                        }
+                    ],
+                    "object": {
+                        "title": "Subject:",
+                        "content": "R package for data-driven multi-objective optimization."
+                    }
+                }
+            ]
+        },
+        "publis": {
+            "title": "Scientific publications",
+            "articles": {
+                "title": "Articles",
+                "list": [
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Campo M.",
+                            "Richardson I.",
+                            "Ertbjerg P.",
+                            "Failla S.",
+                            "Panea B.",
+                            "Chavent M.",
+                            "Saracco J.",
+                            "Williams J-L.",
+                            "Ellies-Oury M-P",
+                            "Hocquette J-F."
+                        ],
+                        "DATE": "2021",
+                        "TITLE": "Has breed any effect on beef sensory quality?",
+                        "REVUE": "Livestock Science",
+                        "NUM": "250",
+                        "DOI": "https://dx.doi.org/10.1016/j.livsci.2021.104548"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Ellies-Oury M-P.",
+                            "Hocquette J-F.",
+                            "Chriki S.",
+                            "Conanec A.",
+                            "Farmer L.",
+                            "Chavent M.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2020",
+                        "TITLE": "Various Statistical Approaches to Assess and Predict Carcass and Meat Quality Traits.",
+                        "REVUE": "Foods",
+                        "NUM": "9(4), 525",
+                        "DOI": "https://doi.org/10.3390/foods9040525"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Picard B.",
+                            "Durand D.",
+                            "Cantalapiedra-Hijar G.",
+                            "Chavent M.",
+                            "Denoyelle C.",
+                            "Gruffat D.",
+                            "Normand J.",
+                            "Saracco J.",
+                            "Ellies-Oury M-P."
+                        ],
+                        "DATE": "2019",
+                        "TITLE": "New Approach Studying Interactions Regarding Trade-Off between Beef Performances and Meat Qualities.",
+                        "REVUE": "Foods",
+                        "NUM": "8(6), 197",
+                        "DOI": "https://doi.org/10.3390/foods8060197"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Ellies-Oury M-P.",
+                            "Chavent M.",
+                            "Conanec A.",
+                            "Bonnet M.",
+                            "Picard B.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2019",
+                        "TITLE": "Statistical model choice including variable selection based on variable importance: A relevant way for biomarkers selection to predict meat tenderness.",
+                        "REVUE": "Scientific Report",
+                        "NUM": "9, 10014",
+                        "DOI": "https://doi.org/10.1038/s41598-019-46202-y"
+                    }
+                ]
+            },
+            "communications": {
+                "title": "Communications",
+                "list": [
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Chavent M.",
+                            "Ellies-Oury M-P.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2021",
+                        "TITLE": "Une approche permettant de maîtriser le niveau de confiance en optimisation multi-objectifs ``data-driven''.",
+                        "CONF": "52e Journées de la Statistique",
+                        "lieu": "Nice, France",
+                        "URL": "https://jds2021.sciencesconf.org/data/pages/book_jds2021_fr_compressed.pdf"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Ramadan L.",
+                            "Chriki S.",
+                            "Ellies-Oury M-P."
+                        ],
+                        "DATE": "2020",
+                        "TITLE": "Méthodologie d’évaluation multicritère de la qualité de la viande bovine.",
+                        "CONF": "Rencontres Recherches Ruminants",
+                        "lieu": "Paris, France",
+                        "URL": "http://www.journees3r.fr/IMG/pdf/qualite_-_20201002-2.pdf"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Chavent M.",
+                            "Ellies-Oury M-P.",
+                            "Saracco J."
+                        ],
+                        "DATE": "2020",
+                        "TITLE": "Une méthodologie computationnelle pour faire de l'optimisation multi-objectifs en élevage de précision.",
+                        "CONF": "52e Journées de la Statistique",
+                        "lieu": "Nice, France",
+                        "URL": "https://jds2020.sciencesconf.org/data/pages/book_jds2020_fr_compressed.pdf"
+                    },
+                    {
+                        "AUTHORS": [
+                            "Conanec A.",
+                            "Picard B.",
+                            "Cantalapiedra-Hijar G.",
+                            "Chavent M.",
+                            "Denoyelle C.",
+                            "Gruffat D.",
+                            "Normand J.",
+                            "Saracco J.",
+                            "Ellies-Oury M-P."
+                        ],
+                        "DATE": "2018",
+                        "TITLE": "Étude des interactions et du compromis entre les performances de 30 génisses Blonde d’Aquitaine et les qualités nutritionnelle et sensorielle de la viande.",
+                        "CONF": "Rencontres Recherches Ruminants",
+                        "lieu": "Paris, France",
+                        "URL": "http://www.journees3r.fr/IMG/pdf/3r2018_session_8_qualite_et_perception_complet.pdf"
+                    }
+                ]
+            }
+        }
+    }
+}
