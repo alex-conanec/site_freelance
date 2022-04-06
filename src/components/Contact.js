@@ -6,7 +6,12 @@ import { LangContext } from "../index";
 var parse = require('html-react-parser');
 function Contact() {
     const form = useRef();
-    const emailjs_cred = require('../.credentials.json');
+    // const emailjs_cred = require('../.credentials.json');
+    const emailjs_cred = {
+        "SERVICE_ID": process.env.SERVICE_ID,
+        "TEMPLATE_ID": process.env.TEMPLATE_ID, 
+        "USER_ID": process.env.USER_ID
+    }
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
