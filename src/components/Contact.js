@@ -7,12 +7,6 @@ require('dotenv').config()
 var parse = require('html-react-parser');
 function Contact() {
     const form = useRef();
-    // const emailjs_cred = require('../.credentials.json');
-    const emailjs_cred = {
-        "SERVICE_ID": process.env.SERVICE_ID,
-        "TEMPLATE_ID": process.env.TEMPLATE_ID, 
-        "USER_ID": process.env.USER_ID
-    }
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
@@ -22,15 +16,9 @@ function Contact() {
     const content = require('./homeContent.json');
 
 
-    console.log(emailjs_cred);
-    console.log("coucou")
-    console.log(process.env.SERVICE_ID)
-    console.log(process.env.TEMPLATE_ID)
-    console.log(process.env.USER_ID)
-    
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(emailjs_cred.SERVICE_ID, emailjs_cred.TEMPLATE_ID, form.current, emailjs_cred.USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
         .then((result) => {
             console.log(result.text);
             setName("")
@@ -38,11 +26,6 @@ function Contact() {
             setMessage("")
         }, (error) => {
             console.log(error.text);
-            console.log(emailjs_cred);
-            console.log("coucou")
-            console.log(process.env.SERVICE_ID)
-            console.log(process.env.TEMPLATE_ID)
-            console.log(process.env.USER_ID)
         });
     };
 
