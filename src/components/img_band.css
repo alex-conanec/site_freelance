@@ -1,0 +1,25 @@
+/* section img desktop */
+
+section#img_desktop{
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/desktop_pic2.png");
+    background-position: 0% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  
+/* section img paysage */
+
+section#img_paysage{
+    margin-top: -30px;
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/paysage_colza.jpg");
+    background-position: 0% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  

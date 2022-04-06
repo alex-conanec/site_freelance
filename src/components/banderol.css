@@ -1,0 +1,230 @@
+/* banderol index */
+.banderol{
+    background-image: url("../images/moi_banderol.jpg");
+    background-position: 0% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    height: 100vh;
+    z-index: 1;
+    align-items: center;
+    padding: 30px;
+}
+
+.banderol > p.legend{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding-inline: 10px;
+}
+  
+.banderol#index_band{
+    background-image: url("../images/moi_banderol.jpg");
+}
+    
+i{
+    margin-right: 5px;
+}
+
+div.icon {
+  background-repeat: no-repeat;
+  background-size: 17px;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+  
+div.language_btn{
+    position: absolute;
+    top: 10px;
+}
+  
+div.language_btn > button{
+    border: none;
+    height: 30px;
+    width: 50px;
+    background-size: cover;
+    opacity: 0.5;
+    margin-inline: 10px;
+}
+  
+div.language_btn > button#fr{
+    background-image: url("../images/flag_fr.png");
+}
+  
+div.language_btn > button#en{
+    background-image: url("../images/flag_en.png");
+}
+  
+div.language_btn > button.active{
+    opacity: 1;
+}
+  
+div.logo{
+    position: absolute;
+    left: 65%;
+    top: calc(0% - 200px);
+    z-index: 2;
+}
+  
+div.logo > a > img{
+    height: 230px;
+    width: 162px;
+}
+  
+div.bull-msg{
+    position: relative;
+}
+  
+div.welcome_speech{
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 160, 255, .6);
+    border-radius: 30px;
+}
+  
+div.welcome_speech > div.banderol_main_msg{
+    text-align: center;
+}
+  
+div.welcome_speech > div.banderol_main_msg > h1{
+    font-size: xxx-large;
+    color: white;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+  
+div.welcome_speech > div.banderol_main_msg > h2{
+    font-size: xx-large;
+    color: black;
+    line-height: 35px;
+}
+  
+div.welcome_speech > p > span.diplome{
+    font-size: x-large;
+    color: black;
+    line-height: 20px;
+}
+  
+  
+div.welcome_speech > p > span.description{
+    font-size: large;
+}
+  
+strong#data_scientist{
+    color: black;
+}
+  
+div.btn-banderol{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgba(0,0,0,0);
+    padding-top: 20px;
+}
+  
+  /* div.btn-banderol > p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    margin-bottom: 0;
+  } */
+  
+.btn-banderol{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 4px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0);
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 10px;
+}
+  
+  
+@media (max-width: 800px){
+    .banderol{
+      padding: 10px;
+    }
+  
+    .welcome_speech{
+      width: 100%;
+      padding: 10px;
+      width: 97%;
+    }
+  
+    div.logo > a > img{
+      height: 200px;
+      width: 141px;
+    }
+  
+    div.logo{
+      top: calc(0% - 170px);
+    }
+  
+}
+  
+@media (max-width: 600px){
+    .banderol{
+      padding: 5px;
+    }
+  
+    div.welcome_speech > div.banderol_main_msg > h1{
+      font-size: xx-large;
+    }
+    
+    div.welcome_speech > p > span.diplome{
+      font-size: large;
+      line-height: 25px;
+    }
+    
+    div.welcome_speech > p > span.description{
+      font-size: medium;
+    }
+}
+  
+@media (max-width: 500px){
+    div.logo > a > img{
+      height: 150px;
+      width: 106px;
+    }
+  
+    div.logo{
+      top: calc(0% - 120px);
+    }
+  }
+  
+  @media (max-width: 400px){
+    div.welcome_speech > p > span.diplome{
+      font-size: medium;
+    }
+  }
+  
+  @media (max-width: 360px){
+    div.logo > a > img{
+      height: 120px;
+      width: 85px;
+    }
+  
+    div.logo{
+      top: calc(0% - 90px);
+    }
+}

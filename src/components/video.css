@@ -1,0 +1,42 @@
+/* video */
+
+section#presentation_video{
+    justify-content: center;
+    margin-top: -30px;
+    z-index: 2;
+  }
+  
+.yt-vid{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    height: calc(0.6 * 56vw);
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.yt-vid > iframe{
+    position: absolute; 
+    left: 0; 
+    top: 0px; 
+    height: 100%; 
+    width: 100%;
+}
+  
+@media (max-width: 1000px){
+    .yt-vid{
+      width: 80%;
+      height: calc(0.8 * 56vw);
+    }
+    
+}
+  
+@media (max-width: 600px){
+    .yt-vid{
+      width: 100%;
+      height: 56vw;
+    }
+    
+}
+  
+  

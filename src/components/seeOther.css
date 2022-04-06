@@ -1,0 +1,44 @@
+section.other-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 160, 255, .6);
+}
+
+section.other-services > div{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin-inline:  30px;
+    /* justify-content: center; */
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    border-bottom: solid 1px black;
+    padding-bottom: 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+section.other-services > div > a > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+section.other-services > div > a > div > img{
+    height: 200px;
+    width: auto;
+}
+
+section.other-services > div > a > div > h4{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: light;
+}

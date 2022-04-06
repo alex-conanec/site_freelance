@@ -1,0 +1,71 @@
+{
+    "fr": {
+        "banderol": {
+            "h1": "Data scientist Freelance",
+            "h2": "Alexandre Conanec",
+            "diplome1": "Docteur en mathématiques appliquées",
+            "diplome2": "Ingénieur en agriculture",
+            "description": "Bonjour, je suis data scientist en freelance. J'accompagne des entreprises dans la réalisation de leurs projets d'intelligence artificielle et de visualisation de leurs données. L'expertise que j'ai développée dans le secteur agricole me permet de saisir rapidement vos enjeux et comprendre sans difficulté vos données.",
+            "button_mail": "Mail",
+            "button_story": "Mon histoire",
+            "button_CV": "CV",
+            "button_services": "Services"
+        },
+        "trust": {
+            "title": "Ils me font confiance !",
+            "recommandations": [
+                {
+                    "message": "Nous avons fait appel à Alexandre pour développer un traitement automatique des données géolocalisées de nos utilisateurs. L'algorithme livré correspond parfaitement à nos attentes et a été implémenté avec qualité. Nous retenons aussi la grande flexibilité dont Alexandre a fait preuve pour s'adapter aux outils que nous utilisons au sein de notre start-up. Nous envisageons clairement de poursuivre notre collaboration ensemble !",
+                    "AUTHOR": "Simon Denonin",
+                    "poste": "CEO",
+                    "company": {
+                        "NAME": "Aptimiz",
+                        "LINK": "https://aptimiz.com/"
+                    }
+                },
+                {
+                    "message": "M. Conanec a travaillé pour l’Appellation Pessac-Léognan l’année dernière dans le cadre du traitement de données sensorielles suite à une expérimentation sur les vins blancs de notre appellation. Dynamique, efficace et communicant, Mr Conanec a su répondre à toutes nos demandes. Toujours à l’écoute de nos viticulteurs, nous sommes ravis d’avoir collaboré avec lui. Si une expérience du même type venait à être réitérée, nous ferions appel à lui.",
+                    "AUTHOR": "Catherine Barbier-Lalève",
+                    "poste": "Directrice du",
+                    "company": {
+                        "NAME": "Syndicat Viticole de Pessac-Léognan",
+                        "LINK": "https://www.pessac-leognan.com/en/"
+                    }
+                },
+                {
+                    "message": "De 2018 à 2021, Alexandre Conanec est venu en appui de l'équipe de statisticiens de Bordeaux Sciences Agro. Il a pris en charge de nombreux travaux dirigés en statistique auprès d'élèves ingénieurs - étudiants et apprentis - abordant une large gamme de sujets : statistique descriptive et inférentielle, statistique multivariée, programmation sur R... Par sa double compétence agronomique et statistique, il s'est montré tout à fait pertinent aussi bien d'un point de vue théorique qu'applicatif, sachant mettre sa discipline à la portée des étudiants agronomes. N'hésitez pas à faire appel à lui pour vos analyses de données !",
+                    "AUTHOR": "Jean-Pierre Da Costa",
+                    "poste": "Professeur en Statistiques à ",
+                    "company": {
+                        "NAME": "Bordeaux Science Agro",
+                        "LINK": "https://www.agro-bordeaux.fr/"
+                    }
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contactez moi !",
+            "placeholder_msg": "Bonjour Dr Conanec,&#10;Je souhaiterais solliciter vos services pour un projet de data science...",
+            "send_button": "Envoyer"
+        },
+        "footer": {
+            "network_msg": "Retrouvez-moi sur les réseaux :"
+        }
+    },
+    "en": {
+        "banderol": {
+            "h1": "Data scientist Freelance",
+            "h2": "Alexandre Conanec",
+            "diplome1": "Doctorate in Applied Mathematics",
+            "diplome2": "Agricultural engineer",
+            "description": "Hello, I am a freelance data scientist. I assist companies in the realization of their artificial intelligence and data visualization projects. The expertise I have developed in the agricultural sector allows me to quickly grasp your challenges and understand your data without difficulty.",
+            "button_mail": "Mail",
+            "button_story": "My story",
+            "button_CV": "CV",
+            "button_services": "Services"
+        },
+        "footer": {
+            "network_msg": "Find me on the networks:"
+        }
+    }
+}

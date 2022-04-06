@@ -1,0 +1,225 @@
+/* section post */
+
+section#posts{
+    height: 100%;
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    padding: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+section#posts > aside{
+    padding-right: 30px;
+    padding-bottom: 60px;
+    margin-left: 35px;
+    position: relative;
+}
+  
+section#posts > aside > nav{
+    border-right: 1px solid gray;
+    padding-right: 15px;
+    position: sticky;
+    top: 60px;
+}
+  
+section#posts > aside > nav {
+    padding: 0;
+}
+  
+section#posts > aside > nav > ul{
+    list-style:none;
+    padding: 0;
+}
+  
+section#posts > aside > nav > ul > li{
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+  
+section#posts > aside > nav > ul > li > button{
+    border: none;
+    background-color: white;
+}
+  
+section#posts > aside > nav > ul > li.active{
+    border-right: 3px solid blue;
+}
+  
+section#posts > aside > nav > ul > li.active > button{
+    color: blue;
+}
+  
+section#posts > aside > nav > ul > li > button > i{
+    display: none;
+}
+  
+.post-list{
+    margin-right: 35px;
+    width: -webkit-fill-available;
+}
+    
+.post-item {
+    height: 250px;
+    /* width: -webkit-fill-available; */
+
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid gray;
+}
+  
+.post-item > .text-card{
+    padding-right: 30px;
+    height: 100%;
+    width: 60%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.post-item > .text-card > a{
+    font-weight: bold;
+    padding-left: 20px;
+}
+  
+  
+  
+.post-item > img{
+    /* height: -webkit-fill-available; */
+
+    height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
+
+    width: auto;
+    align-self: center;
+    order: 2;
+}
+
+.date{
+    color: gray;
+    font-size: small;
+    align-self: end;
+}
+  
+  
+@media (max-width: 800px){
+    section#posts{
+      flex-direction: column;
+      padding-inline: 15px;
+      position: relative;
+    }
+  
+  
+    section.banderol#index_band{
+      margin-bottom: 21px;
+    }
+  
+    section#posts > aside{
+      padding-bottom: 0;
+      padding-inline: 0;
+      position: absolute;
+      top:0;
+      left: 0;
+      right: 0;
+      margin-top: -21px;
+      margin-inline: 0;
+      background-color: white;
+    }
+  
+    section#posts > aside.fixed{
+      position: fixed;
+      margin-top: 0;
+    }
+  
+    
+    section#posts > aside > nav{
+      border-right: none;
+      padding-inline: 15px;
+    }
+  
+    
+    section#posts > aside > nav > ul{
+      padding: 0;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between; 
+    }
+    
+    section#posts > aside > nav > ul > li{
+      font-size: x-large;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: none;
+    }
+  
+    section#posts > aside > nav > ul > li.active{
+      border-right: none;
+      border-bottom: 3px solid blue;
+    }
+  
+    .post-list{
+      margin-inline: 0;
+    }
+}
+  
+@media (max-width: 600px){
+    .post-item {
+      height: 100%;
+      flex-direction: column;
+      border-top: 1px solid gray;
+    }    
+  
+    .post-item > .text-card{
+      padding-right: 0px;
+      padding-top: 20px;
+      width: 100%;
+      order: 2;
+    }
+    
+    .post-item > img{
+      height: auto;
+      width: -webkit-fill-available;
+      padding-top: 20px;
+      order: 1;
+    }
+    
+}
+  
+  
+@media (max-width: 450px){
+    section#posts > aside > nav > ul > li > button > i{
+      display: block;
+    }
+  
+    section#posts > aside > nav > ul > li.active > button > i{
+      display: none;
+    }
+  
+    section#posts > aside > nav > ul > li > button > span{
+      display: none;
+    }
+    
+    section#posts > aside > nav > ul > li.active > button > span{
+      display: block;
+    }
+}
+  
+a{
+    text-decoration: none;
+    color: black;
+} 
+  
