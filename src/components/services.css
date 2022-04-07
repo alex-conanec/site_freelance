@@ -74,6 +74,7 @@ section.card-service{
   img.illustration{
     width: auto;
     height: -webkit-fill-available;
+    height: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
     order: 2;
@@ -130,6 +131,7 @@ section.card-service{
     img.illustration{
       order: 1;
       width: -webkit-fill-available;
+      width: 100%;
       height: auto;
       padding-left: 0px;
       text-align: center;
