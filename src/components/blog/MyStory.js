@@ -67,7 +67,7 @@ function MyStory() {
                         <Link to="/#posts"><img src={logo} alt="logo"/></Link>
                     </div>
                 </div>
-                <p className="legend">Mon grand-père maternelle, mon père et ma petite soeur après une journée de travaux dans la ferme</p>
+                <p className="legend">{banderol.legend}</p>
 
             </section>
             <article className="article">

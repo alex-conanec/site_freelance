@@ -17,7 +17,7 @@
                     "name": "Informatique",
                     "skills_sub_clusters": [
                         {
-                            "name": "Language",
+                            "name": "langage",
                             "class": "info-lang",
                             "skills_list": [
                                 "python",
@@ -241,7 +241,7 @@
                     "topic": {
                         "label": "Sujet :",
                         "content": [
-                            "Traitement de données sensorielles et étude des facteurs influençant la qualité et le potentiel de vieillissement des vins blancs de l'appelation."
+                            "Traitement de données sensorielles et étude des facteurs influençant la qualité et le potentiel de vieillissement des vins blancs de l'appellation."
                         ]
                     },
                     "contact_clusters": [
@@ -354,7 +354,7 @@
                             "label": "Laboratoire :",
                             "list": [
                                 {
-                                    "NAME": "Inria Bordeau-Sud-Ouest",
+                                    "NAME": "Inria Bordeaux-Sud-Ouest",
                                     "URL": "https://www.inria.fr/en/inria-centre-university-bordeaux"
                                 },
                                 {
@@ -715,7 +715,7 @@
                     "name": "Computer Science",
                     "skills_sub_clusters": [
                         {
-                            "name": "Language",
+                            "name": "language",
                             "class": "info-lang",
                             "skills_list": [
                                 "python",
