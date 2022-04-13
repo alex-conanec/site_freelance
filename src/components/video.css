@@ -13,6 +13,7 @@ section#presentation_video{
     height: calc(0.6 * 56vw);
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: 8px 9px 8px 8px rgba(0, 0, 0, 0.7)
 }
   
 .yt-vid > iframe{
@@ -33,6 +34,7 @@ section#presentation_video{
   
 @media (max-width: 600px){
     .yt-vid{
+      box-shadow: none;
       width: 100%;
       height: 56vw;
     }
