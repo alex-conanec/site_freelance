@@ -4,7 +4,7 @@ section#img_desktop{
     height: 250px;
     width: 100%;
     background-image: url("../images/desktop_pic2.png");
-    background-position: 0% 0%;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
