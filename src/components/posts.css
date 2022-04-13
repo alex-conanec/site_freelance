@@ -60,7 +60,9 @@ section#posts > aside > nav > ul > li > button > i{
   
 .post-list{
     margin-right: 35px;
-    width: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
+    width: 100%;
+
 }
     
 .post-item {
@@ -100,9 +102,12 @@ section#posts > aside > nav > ul > li > button > i{
     /* height: -webkit-fill-available; */
 
     height: 100%;
-    height: -moz-available;          /* WebKit-based browsers will ignore this. */
-    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: -moz-available;          
+    height: -webkit-fill-available;  
     height: fill-available;
+    height: 200px;
+    /* min-height: 200px;
+    max-height: 200px; */
 
     width: auto;
     align-self: center;
@@ -177,8 +182,15 @@ section#posts > aside > nav > ul > li > button > i{
 }
   
 @media (max-width: 600px){
+
+    /* .post-list{
+      width: -webkit-fill-available;
+      width: 100%;
+    } */
+
     .post-item {
       height: 100%;
+      width: 100%;
       flex-direction: column;
       border-top: 1px solid gray;
     }    
@@ -192,7 +204,8 @@ section#posts > aside > nav > ul > li > button > i{
     
     .post-item > img{
       height: auto;
-      width: -webkit-fill-available;
+      /* width: -webkit-fill-available; */
+      width: 100%;
       padding-top: 20px;
       order: 1;
     }

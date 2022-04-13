@@ -53,10 +53,10 @@ function Main() {
                         </p>
                     </div>
                     <div className="btn-banderol">
-                        <a href={"mailto:alexandre@conanec.com"} className="btn-banderol"><i className="fa-solid fa-envelope"></i>{banderol.button_mail}</a>
-                        <Link to='/mon-histoire#banderol' className="btn btn-banderol"><i className="fa-solid fa-book"></i>{banderol.button_story}</Link>
-                        <Link to='/CV#banderol' className="btn btn-banderol"><i className="fa-solid fa-id-card-clip"></i>{banderol.button_CV}</Link>
-                        <button onClick={() => document.location.href="#posts"} className="btn-banderol"><i className="fa-solid fa-screwdriver-wrench"></i>{banderol.button_services}</button>      
+                        <a href={"mailto:alexandre@conanec.com"} className="btn-banderol-btn"><i className="fa-solid fa-envelope"></i>{banderol.button_mail}</a>
+                        <Link to='/mon-histoire#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-book"></i>{banderol.button_story}</Link>
+                        <Link to='/CV#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-id-card-clip"></i>{banderol.button_CV}</Link>
+                        <button onClick={() => document.location.href="#posts"} className="btn-banderol-btn"><i className="fa-solid fa-screwdriver-wrench"></i>{banderol.button_services}</button>      
                     </div>
                     <div className="logo">
                         <Link to="/"><img src={logo} alt="logo"/></Link>

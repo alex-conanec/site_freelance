@@ -47,7 +47,8 @@ div.language_btn > button{
     width: 50px;
     background-size: cover;
     opacity: 0.5;
-    margin-inline: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
   
 div.language_btn > button#fr{
@@ -120,14 +121,13 @@ strong#data_scientist{
     color: black;
 }
   
-div.btn-banderol{
+.btn-banderol{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1em;
     background-color: rgba(0,0,0,0);
-    padding-top: 20px;
+    padding-top: 20px;  
 }
   
   /* div.btn-banderol > p{
@@ -142,7 +142,7 @@ div.btn-banderol{
     margin-bottom: 0;
   } */
   
-.btn-banderol{
+.btn-banderol-btn{
     display: flex;
     align-items: center;
     padding-top: 0;
@@ -154,7 +154,9 @@ div.btn-banderol{
     background-color: white;
     color: black;
     white-space: nowrap;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: none;
     border-radius: 10px;
 }
