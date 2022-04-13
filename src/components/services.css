@@ -1,7 +1,8 @@
 /* services */
 section.card-service{
     padding-top: 50px ;
-    padding-inline: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: justify;
     max-width: 1000px;
     margin-left: auto;
@@ -73,7 +74,6 @@ section.card-service{
   
   img.illustration{
     width: auto;
-    height: -webkit-fill-available;
     height: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -105,7 +105,8 @@ section.card-service{
   @media (max-width: 800px){
   
     section.card-service{
-      padding-inline: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   
     div.propo-serv{
@@ -130,7 +131,6 @@ section.card-service{
   
     img.illustration{
       order: 1;
-      width: -webkit-fill-available;
       width: 100%;
       height: auto;
       padding-left: 0px;

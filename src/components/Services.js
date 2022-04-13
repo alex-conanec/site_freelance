@@ -159,7 +159,7 @@ function Services(props) {
                     </div>
                     <div className="btn-banderol">
                         {(banderol["anchors"]).map((anchor, i) => {
-                            return <button className="btn-banderol" key={i} onClick={() => document.location.href=anchor["URL"]}><Icon anchor={anchor} />{parse(anchor["label"])}</button>
+                            return <button className="btn-banderol-btn" key={i} onClick={() => document.location.href=anchor["URL"]}><Icon anchor={anchor} />{parse(anchor["label"])}</button>
                         })}
                     </div>
                     <div className="logo">

@@ -17,7 +17,8 @@
     position: absolute;
     bottom: 0;
     color: white;
-    padding-inline: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
   
 .banderol#index_band{
@@ -129,18 +130,7 @@ strong#data_scientist{
     background-color: rgba(0,0,0,0);
     padding-top: 20px;  
 }
-  
-  /* div.btn-banderol > p{
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 10px;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    white-space: nowrap;
-    margin-bottom: 0;
-  } */
+ 
   
 .btn-banderol-btn{
     display: flex;

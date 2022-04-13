@@ -16,7 +16,8 @@ article.article{
 }
 
 section.article-content{
-  padding-inline: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 section.article-content > p{
@@ -39,7 +40,8 @@ section.article-content > h2.citation{
   margin-bottom: 45px;
   color: gray;
   font-weight: 300;
-  padding-inline: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: left;
   border-left: solid 3px gray;
   margin-left: 25px;
