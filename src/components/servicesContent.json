@@ -3,7 +3,7 @@
         "data": {
             "banderol": {
                 "title": "Collecte, nettoyage et stockage des données",
-                "description": "Creation d'une pipeline pour intégrer les données nécessaire à votre entreprise. Pour alimenter votre tableau de bord ou vos modèles de prédiction.",
+                "description": "Création d'une pipeline pour intégrer les données nécessaires à votre entreprise. Pour alimenter votre tableau de bord ou vos modèles de prédiction.",
                 "anchors": [
                     {
                         "URL": "/service-data#collect",
@@ -38,11 +38,11 @@
                         "NAME": "oil_barril",
                         "alt": "Fuel de données"
                     },
-                    "problematique": "Les données sont partout. Certaines sont en votre possession (vos capteurs, vos mesures, vos photos, etc.), d'autres sont sur le net (API, site web) ou dans d'autres bases de données auxquelles vous avez accès. Parfois, elle n'est simplement pas enregistré, notamment par vos utilisateurs, salariés etc.",
+                    "problematique": "Les données sont partout. Certaines sont en votre possession (vos capteurs, vos mesures, vos photos, etc.), d'autres sont sur le net (API, site web) ou dans d'autres bases de données auxquelles vous avez accès. Parfois, elle n'est simplement pas enregistrée, notamment par vos utilisateurs, salariés etc.",
                     "propositions": [
                         "Création d'une application de type CRM pour saisir vos données.",
                         "Requêtes SQL pour interroger vos propres bases de données.",
-                        "Web API pour alimenter vos base de données avec des bases externes.",
+                        "Web API pour alimenter vos bases de données avec des bases externes.",
                         "Web Scrappers pour utiliser le contenu de pages internet."
                     ]
                 },
@@ -58,12 +58,12 @@
                         "NAME": "data_cleaning",
                         "alt": "Aspirateur à données"
                     },
-                    "problematique": "L'or noir est dans votre barril, mais ce n'est pour le moment que du pétrole brute. Vos données doivent être homogénéisées pour les rendre compatibles avec les outils de visualisation ou de machine learning. Cette étape parfois laborieuse, souvent sous-estimée, est cependant essentielle pour la fiabilité de vos modèles. Une bonne préparation des données assure par ailleurs un gain évident de temps lors de la phase de modélisation.",
+                    "problematique": "L'or noir est dans votre baril, mais ce n'est pour le moment que du pétrole brut. Vos données doivent être homogénéisées pour les rendre compatibles avec les outils de visualisation ou de machine learning. Cette étape parfois laborieuse, souvent sous-estimée, est cependant essentielle pour la fiabilité de vos modèles. Une bonne préparation des données assure par ailleurs un gain évident de temps lors de la phase de modélisation.",
                     "propositions": [
                         "Parsing de document (html, xml, pdf) pour extraire l'information.",
                         "Homogénéisation des variables (noms, codage des modalités, unités).",
-                        "Détection de valeur aberrantes.",
-                        "Imputation de valeur manquantes."
+                        "Détection de valeurs aberrantes.",
+                        "Imputation de valeurs manquantes."
                     ]
                 },
                 {
@@ -78,7 +78,7 @@
                         "NAME": "etagere",
                         "alt": "Stockage des données"
                     },
-                    "problematique": "L'organisation de vos <strong>données</strong> ne doit pas être laissée au hasard surtout lorsque leur variété et leur volume est important. L'utilisation de base de données relationnelles permet notamment de schématiser l'organisation de vos données pour limiter les redondances et faciliter les extractions. Pour les projets évoluant constamment, des solutions noSQL sont parfois plus adaptées car apportent davantage de flexibilité. Le stockage doit à la fois permettre de sécuriser vos données en procédant à des replicats et à la fois de distribuer celles-ci afin qu'elle soient accessibles par un ensemble d'utilisateurs que vous aurez défini.",
+                    "problematique": "L'organisation de vos <strong>données</strong> ne doit pas être laissée au hasard surtout lorsque leur variété et leur volume sont important. L'utilisation de bases de données relationnelles permet notamment de schématiser l'organisation de vos données pour limiter les redondances et faciliter les extractions. Pour les projets évoluant constamment, des solutions noSQL sont parfois plus adaptées car apportent davantage de flexibilité. Le stockage doit à la fois permettre de sécuriser vos données en procédant à des réplicas et à la fois de distribuer celles-ci afin qu'elles soient accessibles par un ensemble d'utilisateurs que vous aurez défini.",
                     "propositions": [
                         "Modélisation des données pour utiliser des bases de données relationnelles.",
                         "Stockage flexible à l'évolution du projet avec des bases noSQL.",
@@ -90,7 +90,7 @@
         "ml": {
             "banderol": {
                 "title": "Intelligence artificielle",
-                "description": "Creation de modèles pour analyser et prédire.",
+                "description": "Création de modèles pour analyser, prédire et décider.",
                 "anchors": [
                     {
                         "URL": "/service-IA#predire",
@@ -125,9 +125,9 @@
                         "NAME": "graph_pred",
                         "alt": "Prédiction série temporelle"
                     },
-                    "problematique": "L'apprentissage automatique permet d'estimer ce qui se passe dans un contexte donné. Chaque prédiction vous permet d'anticiper la réalisation d'un événement, pour prévenir une panne et éviter l'arrêt de la chaîne de production, pour soigner une maladie à un stade précoce avant la dégradation de la santé d'un individu/animal/plante. Comme pour la météo, obtenez aussi des prévisions sur les prévisions de vos ventes",
+                    "problematique": "L'apprentissage automatique permet d'estimer ce qui se passe dans un contexte donné. Chaque prédiction vous permet d'anticiper la réalisation d'un événement, pour prévenir une panne et éviter l'arrêt de la chaîne de production, pour soigner une maladie à un stade précoce avant la dégradation de la santé d'un individu/animal/plante. Comme pour la météo, obtenez aussi des prévisions de vos ventes.",
                     "propositions": [
-                        "Modèle de séries temportaires pour prédire le future.",
+                        "Modèle de séries temporaires pour prédire le futur.",
                         "Comparaison de différents algorithmes de régression/classNameification pour améliorer vos prédictions.",
                         "Validation du modèle pour en assurer sa fiabilité"
                     ]
@@ -144,7 +144,7 @@
                         "NAME": "meca_brain",
                         "alt": "Cerveau numérique"
                     },
-                    "problematique": "Parfois prédire ce qui se passe ne suffit pas à répondre à la problématique et il est nécessaire de comprendre les mécanismes qui sont en jeu dans un phénomène d'intérêt. Par exemple décrypter quelles variables explicatives ont un impact sur votre variable à expliquer et avec quelle importance relative afin de modifier votre manière de produire. Comprendre la structuration de vos données peut aussi se révéler décisive, en identifiant par exemple, des profils types de client pour leur proposer une offre adaptée et personnalisée.",
+                    "problematique": "Parfois prédire ce qui se passe ne suffit pas à répondre à la problématique et il est nécessaire de comprendre les mécanismes qui sont en jeu dans un phénomène d'intérêt. Par exemple décrypter quelles variables explicatives ont un impact sur votre variable à expliquer et avec quelle importance relative afin de modifier votre manière de produire. Comprendre la structuration de vos données peut aussi se révéler décisive, en identifiant par exemple, des profils types de clients pour leur proposer une offre adaptée et personnalisée.",
                     "propositions": [
                         "Statistiques inférentielles et test d'hypothèses pour traiter scientifiquement vos expériences.",
                         "Analyse de la sensibilité pour identifier les principaux facteurs influençant votre variable d'intérêt.",
@@ -210,10 +210,10 @@
                         "NAME": "lego",
                         "alt": "lego illustration"
                     },
-                    "problematique": "Si vous cherchez une aiguille dans une botte de foin, bruler le foin et vous trouverez votre aiguille. Avec vos données c'est pareil. Sans être un expert en cerveau humain, je vous assure que celui-ci assimile assez mal les tableaux aussi complets soient-ils. En revanche, mettez un code couleur pour chaque modalité de votre variable, montrez l'évolution de la courbe en fonction du temps et devant votre graphique qui parle par lui-même concentrer votre energie à tirer les enseignements du résultats. Plutôt que de citez vos ventes par département, montrez à vos interlocuteurs une représentation géographique des volumes, des evolutions...",
+                    "problematique": "Si vous cherchez une aiguille dans une botte de foin, bruler le foin et vous trouverez votre aiguille. Avec vos données c'est pareil. Sans être un expert en cerveau humain, je vous assure que celui-ci assimile assez mal les tableaux aussi complets soient-ils. En revanche, mettez un code couleur pour chaque modalité de votre variable, montrez l'évolution de la courbe en fonction du temps et devant votre graphique qui parle par lui-même concentrez votre énergie à tirer les enseignements du résultat. Plutôt que de citer vos ventes par département, montrez à vos interlocuteurs une représentation géographique des volumes, des évolutions...",
                     "propositions": [
                         "Une présentation graphique de vos données sobre pour présenter vos résultats plus efficacement.",
-                        "Des visualisations plus complexes combinant plusieurs variables et/ou échelles (temporelles, géographique) pour afiner votre analyse des données.",
+                        "Des visualisations plus complexes combinant plusieurs variables et/ou échelles (temporelles, géographiques) pour affiner votre analyse des données.",
                         "Des infographies à destination de vos clients pour faire passer votre message."
                     ]
                 },
@@ -229,9 +229,9 @@
                         "NAME": "ctrl-c-v",
                         "alt": "copier-coller"
                     },
-                    "problematique": "Que ce soit pour vos clients, l'administration, vos actionnaires ou vos collaborateurs, vos rappors permettent de rentrer dans le détail des chiffres afin de donner les explications et la stratégie à suivre. Si vous êtes l'auteur d'un de ces rapports réguliés et que vous êtes atteind d'une demi tendinite de la main gauche à force d'user du ctrl-c - ctrl-v, vous allez aimez ce que je vous propose. Ne perdez plus votre temps à vous repétez et concentrez vos efforts sur votre vraie plus-value : la discussion des résultats et l'élaboration de piste de reflection et de stratégie.",
+                    "problematique": "Que ce soit pour vos clients, l'administration, vos actionnaires ou vos collaborateurs, vos rapports permettent de rentrer dans le détail des chiffres afin de donner les explications et la stratégie à suivre. Si vous êtes l'auteur d'un de ces rapports réguliers et que vous êtes atteint d'une demi tendinite de la main gauche à force d'user du ctrl-c - ctrl-v, vous allez aimer ce que je vous propose. Ne perdez plus votre temps à vous répéter et concentrez vos efforts sur votre vraie plus-value : la discussion des résultats et l'élaboration de pistes de réflexion et de stratégie.",
                     "propositions": [
-                        "Génération régulière de rapport sur la base d'un template et d'une source de données"
+                        "Génération régulière de rapports sur la base d'un template et d'une source de données"
                     ]
                 },
                 {
@@ -246,10 +246,10 @@
                         "NAME": "dashboard",
                         "alt": "dashboard"
                     },
-                    "problematique": "Pour accompagner les décisions que vous prenez au quotidien, appuyez vous sur un tableau de bord hergonomique et à jour. Demandez-moi d'y ajouter l'évolution de vos ventes, par jour, par semaine, par mois. C'est vous qui choissisez les indicateurs qui sont pertinent pour votre décision. Incrémentons le tous de quelques filtres pour visualiser rapidement le chiffre réalisé par salarié et par secteur, ou pour déterminer quel client décrocheur vous devez invitez au restaurant le plus vite possible pour remplir votre carnet de commande. Optenez en un click les performances de votre site : le nombre de visite, le taux de conversion, les produits qui marchent le mieux et ceux qui mériterait une petite promo. Ce tableau de bord peut pour tout ou parti être partagé avec vos équipes pour réduire la durée de vos réunions et garder toute votre équipe concernée sur les objectifs du mois et de l'année!",
+                    "problematique": "Pour accompagner les décisions que vous prenez au quotidien, appuyez vous sur un tableau de bord ergonomique et à jour. Demandez-moi d'y ajouter l'évolution de vos ventes, par jour, par semaine, par mois. C'est vous qui choisissez les indicateurs pertinents pour votre décision. Incrémentons le tous de quelques filtres pour visualiser rapidement le chiffre réalisé par salarié et par secteur, ou pour déterminer quel client décrocheur vous devez inviter au restaurant le plus vite possible pour remplir votre carnet de commande. Obtenez en un clic les performances de votre site : le nombre de visites, le taux de conversion, les produits qui marchent le mieux et ceux qui mériteraient une petite promo. Ce tableau de bord peut pour tout ou partie être partagé avec vos équipes pour réduire la durée de vos réunions et garder toute votre équipe concernée sur les objectifs du mois et de l'année!",
                     "propositions": [
                         "Tableau de bord pour visualiser vos indicateurs clés de performances (KPI).",
-                        "Un outil à destination de toute votre équipes avec une gestion facile des droits de lecture et de modification."
+                        "Un outil à destination de toute votre équipe avec une gestion facile des droits de lecture et de modification."
                     ]
                 }
             ]
@@ -257,7 +257,7 @@
         "formation": {
             "banderol": {
                 "title": "Formations",
-                "description": "Pour faire progresser vos équipes en traitement et analyse de données, je porposes des formations sur-mesures.",
+                "description": "Pour faire progresser vos équipes en traitement et analyse de données, je propose des formations sur-mesure.",
                 "anchors": [
                     {
                         "URL": "/service-training#programmation",
@@ -292,11 +292,11 @@
                         "NAME": "tableau_periodique_lang",
                         "alt": "tableau périodique des language de programmation"
                     },
-                    "problematique": "J'ai coutume de dire que les ordinateurs sont les esclaves des temps modernes. Pour dompter ces supers machines et décupler vos capacitées à faire tout un tas de tâches fastidieuses, répétitives et parfois source d'erreurs humaines, il est cependant nécessaire de maîtriser un ou plusieurs langages de programmation. Je vous propose donc de rajouter de nouvelles cordes à votre arc pour améliorer votre productivité.",
+                    "problematique": "J'ai coutume de dire que les ordinateurs sont les esclaves des temps modernes. Pour dompter ces supers machines et décupler vos capacités à faire tout un tas de tâches fastidieuses, répétitives et parfois sources d'erreurs humaines, il est cependant nécessaire de maîtriser un ou plusieurs langages de programmation. Je vous propose donc de rajouter de nouvelles cordes à votre arc pour améliorer votre productivité.",
                     "propositions": [
                         "Manipulation des données avec dplyr, tidyr ou pandas.",
                         "Visualisation des données avec ggplot, plotly ou shiny.",
-                        "Language de programmation (R ou python) ou de requête (SQL)."
+                        "Langage de programmation (R ou python) ou de requête (SQL)."
                     ]
                 },
                 {
@@ -311,7 +311,7 @@
                         "NAME": "stats_infs",
                         "alt": "Statistiques inférentielles"
                     },
-                    "problematique": "Il ne se passe pas un jour sans que vous n'entendiez parler d'une statistique. Les médias, les articles de revue, vos collègues, vos fournisseurs et vos clients vous inondent de ces maths qui font de la science ce qu'elle est. Que ce soit pour comprendre à décortiquer les méthodologies employées pour produire ces statistiques ou pour étayer vos résultats avec des modèles mathématiques fiables, je tenterai de démystifier la complexité qui se cache derrière la boite noire !",
+                    "problematique": "Il ne se passe pas un jour sans que vous n'entendiez parler d'une statistique. Les médias, les articles de revue, vos collègues, vos fournisseurs et vos clients vous inondent de ces maths qui font de la science ce qu'elle est. Que ce soit pour apprendre à décortiquer les méthodologies employées pour produire ces statistiques ou pour étayer vos résultats avec des modèles mathématiques fiables, je tenterai de démystifier la complexité qui se cache derrière la boite noire !",
                     "propositions": [
                         "Statistiques inférentielles (test d'hypothèse, ANOVA, etc.).",
                         "Apprentissage supervisé (classNameification ou régression).",
@@ -335,7 +335,7 @@
                     "problematique": "Parce que vous avez des niveaux différents, des disponibilités différentes et des objectifs différents, je propose un maximum de flexibilité.",
                     "propositions": [
                         "Formation en petit comité, webinaire ou conférence.",
-                        "Durée, nombre de participants et fréquence modulable.",
+                        "Durée, nombre de participants et fréquence modulables.",
                         "Contenu et objectifs adaptés à vos besoins"
                     ]
                 }

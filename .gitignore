@@ -26,3 +26,5 @@ yarn-error.log*
 .credentials.json
 
 temp/
+translate.py
+translate.ipynb

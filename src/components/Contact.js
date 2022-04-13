@@ -6,7 +6,6 @@ import { LangContext } from "../index";
 var parse = require('html-react-parser');
 function Contact() {
     const form = useRef();
-    const emailjs_cred = require('../.credentials.json');
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
@@ -14,10 +13,11 @@ function Contact() {
 
     const {lang} = React.useContext(LangContext)
     const content = require('./homeContent.json');
-    
+
+
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(emailjs_cred.SERVICE_ID, emailjs_cred.TEMPLATE_ID, form.current, emailjs_cred.USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
         .then((result) => {
             console.log(result.text);
             setName("")

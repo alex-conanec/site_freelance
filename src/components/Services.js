@@ -34,6 +34,10 @@ function Services(props) {
     const services = content[lang][service_id]["services"];
     let banderolStyle;
 
+    useEffect(() => {
+        document.title = banderol.title
+    }, [])
+
 
     useEffect(() => {
         document.title = banderol.title

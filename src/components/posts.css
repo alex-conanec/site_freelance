@@ -106,9 +106,6 @@ section#posts > aside > nav > ul > li > button > i{
     height: -webkit-fill-available;  
     height: fill-available;
     height: 200px;
-    /* min-height: 200px;
-    max-height: 200px; */
-
     width: auto;
     align-self: center;
     order: 2;

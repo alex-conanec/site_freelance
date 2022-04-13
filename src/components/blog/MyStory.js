@@ -22,6 +22,12 @@ function MyStory() {
     const ds_disciplines = content[lang].ds_disciplines;
     const banderolStyle = {"backgroundImage": `url(${ImgBanderol})`}
 
+
+    useEffect(() => {
+        document.title = banderol.title
+    }, [])
+
+
     const ImgChoice = (props) => {
 
         switch (props.img) {
@@ -65,7 +71,7 @@ function MyStory() {
                         <Link to="/#posts"><img src={logo} alt="logo"/></Link>
                     </div>
                 </div>
-                <p className="legend">Mon grand-père maternelle, mon père et ma petite soeur après une journée de travaux dans la ferme</p>
+                <p className="legend">{banderol.legend}</p>
 
             </section>
             <article className="article">

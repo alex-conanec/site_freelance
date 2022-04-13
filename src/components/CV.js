@@ -24,10 +24,9 @@ function CV() {
     useEffect(() => {
         if (lang == "fr"){
             document.title = "CV d'Alexandre Conanec"
-        }else{
-            document.title = "Alexandre Conanec's CV"
+        }else if (lang == "en"){
+            document.title = "Alexandre Conanec's resume"
         }
-        
     }, [lang])
 
     const Topic = (props) => {
