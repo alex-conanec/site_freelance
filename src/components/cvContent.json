@@ -7,7 +7,10 @@
             "CITY": "Bordeaux",
             "EMAIL": "alexandre@conanec.com",
             "car": "Véhiculé",
-            "version_longue": "Version longue",
+            "version_longue": {
+                "label": "Télécharger",
+                "download": "CV.pdf"
+            },
             "version_courte": "Version 1 page"
         },
         "skills": {

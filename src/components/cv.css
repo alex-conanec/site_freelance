@@ -53,6 +53,10 @@ section#entete_cv > div.download-btn{
   justify-content: center;
 }
 
+section#entete_cv > div.infos-generales{
+  max-width: 500px;
+}
+
 section#entete_cv > div.infos-generales > span{
   white-space: nowrap;
 }

@@ -68,7 +68,7 @@ aside.article > nav{
   top: 60px;
   flex-direction: column;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 aside.article > nav > ul{

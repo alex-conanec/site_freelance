@@ -22,9 +22,9 @@ function CV() {
     const publis = content[lang].publis;
 
     useEffect(() => {
-        if (lang == "fr"){
+        if (lang === "fr"){
             document.title = "CV d'Alexandre Conanec"
-        }else if (lang == "en"){
+        }else if (lang === "en"){
             document.title = "Alexandre Conanec's resume"
         }
     }, [lang])
@@ -74,11 +74,11 @@ function CV() {
                     <span>{entete.age}</span>
                     <span><i className="fa-solid fa-location-dot"></i>{entete.CITY}</span>
                     <span><i className="fa-solid fa-at"></i>{entete.EMAIL}</span>
+                    <span><i class="fa-solid fa-globe"></i>data-scientist.conanec.com</span>
                     <span><i className="fa-solid fa-car"></i>{entete.car}</span>
                 </div>
                 <div className="download-btn">
-                    <p><a href={require("../images/CV_long.pdf")} download="CV.pdf"><i className="fa-solid fa-download"></i>{entete.version_longue}</a></p>
-                    <p><a href={require("../images/CV_court.pdf")} download="CV.pdf"><i className="fa-solid fa-download"></i>{entete.version_courte}</a></p>
+                    {lang === "fr" ? <p><a href={require("../images/CV_long_fr.pdf")} download={entete.version_longue.download}><i className="fa-solid fa-download"></i>{entete.version_longue.label}</a></p> : <p><a href={require("../images/CV_long_en.pdf")} download={entete.version_longue.download}><i className="fa-solid fa-download"></i>{entete.version_longue.label}</a></p>}
                 </div>
                 
             </section>

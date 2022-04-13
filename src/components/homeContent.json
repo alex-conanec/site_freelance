@@ -44,7 +44,7 @@
             ]
         },
         "contact": {
-            "title": "Contactez moi !",
+            "title": "Contactez-moi !",
             "placeholder_msg": "Bonjour Dr Conanec,&#10;Je souhaiterais solliciter vos services pour un projet de data science...",
             "send_button": "Envoyer"
         },

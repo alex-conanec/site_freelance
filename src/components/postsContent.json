@@ -24,7 +24,7 @@
                 {
                     "id": "ml",
                     "title": "Intelligence artificielle",
-                    "description": "Derrière ce gros mot je regroupe toute mes prestations de service en apprentissage automatique ainsi qu'en recherche opérationnelle  pour vous accompagner dans votre prise de décision.",
+                    "description": "Derrière ce gros mot je regroupe toutes mes prestations de services en apprentissage automatique ainsi qu'en recherche opérationnelle  pour vous accompagner dans votre prise de décision.",
                     "more": {
                         "label": "En savoir plus",
                         "LINK": "/service-IA#banderol"
@@ -37,7 +37,7 @@
                 {
                     "id": "vizu",
                     "title": "Visualisation",
-                    "description": "Création de graphiques interractifs, de cartographies de vos données géolocalisées que je vous propose d'intégrer dans des rapports automatisés ou des tableaux de bord.",
+                    "description": "Création de graphiques interractifs, de cartographies de vos données géolocalisées, que je vous propose d'intégrer dans des rapports automatisés ou des tableaux de bord.",
                     "more": {
                         "label": "En savoir plus",
                         "LINK": "/service-visualisation#banderol"
@@ -50,7 +50,7 @@
                 {
                     "id": "formation",
                     "title": "Formation",
-                    "description": "Pour faire progresser vos équipes en traitement et analyse de données, je proposes des formations sur-mesures.",
+                    "description": "Pour faire progresser vos équipes en traitement et analyse de données, je propose des formations sur-mesures.",
                     "more": {
                         "label": "En savoir plus",
                         "LINK": "/service-training#banderol"

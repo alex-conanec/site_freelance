@@ -11,7 +11,7 @@ import Footer from './Footer';
 import Lang from './Lang';
 import { LangContext } from "../index";
 
-var parse = require('html-react-parser');
+
 function Main() {
 
     useEffect( () => {
@@ -26,44 +26,13 @@ function Main() {
     const recommandations = content[lang].trust.recommandations;
     
 
-    function Mailto({ email, subject, body, ...props }) {
-        return (
-          <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
-            {props.children}
-          </a>
-        );
-    }
     
     return (
         <article>
             <section id="index_band" className="banderol-home">
 
                 <Lang/>
-
-                {/* <div className="bull-msg">
-                    <div className="welcome_speech">
-                        <div  className="banderol_main_msg">
-                            <h1>{banderol.h1}</h1>
-                            <h2>{banderol.h2}</h2>
-                        </div>
-                        <p>
-                            <span className="diplome"><i className="fa-solid fa-graduation-cap"></i>{banderol.diplome1}</span><br/>
-                            <span className="diplome"><i className="fa-solid fa-graduation-cap"></i>{banderol.diplome2}</span><br/>
-                            <span className="description">{banderol.description}</span>
-                        </p>
-                    </div>
-                    <div className="btn-banderol">
-                        <a href={"mailto:alexandre@conanec.com"} className="btn-banderol-btn"><i className="fa-solid fa-envelope"></i>{banderol.button_mail}</a>
-                        <Link to='/mon-histoire#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-book"></i>{banderol.button_story}</Link>
-                        <Link to='/CV#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-id-card-clip"></i>{banderol.button_CV}</Link>
-                        <button onClick={() => document.location.href="#posts"} className="btn-banderol-btn"><i className="fa-solid fa-screwdriver-wrench"></i>{banderol.button_services}</button>      
-                    </div>
-                    <div className="logo">
-                        <Link to="/"><img src={logo} alt="logo"/></Link>
-                    </div>
-                </div> */}
-
-
+                
                 <div  className="title-home">
                     <h1>{banderol.h1}</h1>
                     <h2>{banderol.h2}</h2>
@@ -80,7 +49,7 @@ function Main() {
                 <div className="btn-banderol-home">
                         <a href={"mailto:alexandre@conanec.com"} className="btn-banderol-btn"><i className="fa-solid fa-envelope"></i>{banderol.button_mail}</a>
                         <Link to='/mon-histoire#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-book"></i>{banderol.button_story}</Link>
-                        <Link to='/CV#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-id-card-clip"></i>{banderol.button_CV}</Link>
+                        <Link to='/CV#entete_cv' className="btn btn-banderol-btn"><i className="fa-solid fa-id-card-clip"></i>{banderol.button_CV}</Link>
                         <button onClick={() => document.location.href="#posts"} className="btn-banderol-btn"><i className="fa-solid fa-screwdriver-wrench"></i>{banderol.button_services}</button>      
                     </div>
             </section>
@@ -91,7 +60,7 @@ function Main() {
 
             <section id="presentation_video">
                 <div className="yt-vid">
-                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowFullScreen></iframe>
+                    <iframe title="Alexandre Conanec data scientist freelance" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowFullScreen></iframe>
                 </div>
             </section>
 
