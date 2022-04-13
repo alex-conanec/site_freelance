@@ -36,11 +36,11 @@ function Main() {
     
     return (
         <article>
-            <section id="index_band" className="banderol">
+            <section id="index_band" className="banderol-home">
 
                 <Lang/>
 
-                <div className="bull-msg">
+                {/* <div className="bull-msg">
                     <div className="welcome_speech">
                         <div  className="banderol_main_msg">
                             <h1>{banderol.h1}</h1>
@@ -61,7 +61,28 @@ function Main() {
                     <div className="logo">
                         <Link to="/"><img src={logo} alt="logo"/></Link>
                     </div>
+                </div> */}
+
+
+                <div  className="title-home">
+                    <h1>{banderol.h1}</h1>
+                    <h2>{banderol.h2}</h2>
+                    <div className="diplome">
+                        <span className="diplome"><i className="fa-solid fa-graduation-cap"></i>{banderol.diplome1}</span><br/>
+                        <span className="diplome"><i className="fa-solid fa-graduation-cap"></i>{banderol.diplome2}</span><br/>        
+                    </div>
+                    
                 </div>
+                <div className="logo-home">
+                    <Link to="/"><img src={logo} alt="logo"/></Link>
+                </div>
+
+                <div className="btn-banderol-home">
+                        <a href={"mailto:alexandre@conanec.com"} className="btn-banderol-btn"><i className="fa-solid fa-envelope"></i>{banderol.button_mail}</a>
+                        <Link to='/mon-histoire#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-book"></i>{banderol.button_story}</Link>
+                        <Link to='/CV#banderol' className="btn btn-banderol-btn"><i className="fa-solid fa-id-card-clip"></i>{banderol.button_CV}</Link>
+                        <button onClick={() => document.location.href="#posts"} className="btn-banderol-btn"><i className="fa-solid fa-screwdriver-wrench"></i>{banderol.button_services}</button>      
+                    </div>
             </section>
 
             <Posts/>

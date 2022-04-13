@@ -1,7 +1,66 @@
+section.banderol-home{
+  background-image: url("../images/moi-banderol.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  width: 100%; 
+  height: 100vh;
+  z-index: 1;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+
+.title-home{
+  position: absolute;
+  top: 50px;
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 160, 255, .6);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.title-home > h2, .diplome{
+  color: black;
+}
+
+
+div.logo-home{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+div.logo-home > a > img{
+  height: 230px;
+  width: 162px;
+}
+
+
+  
+@media (max-width: 700px){
+  div.logo-home > a > img{
+    height: 77px;
+    width: 54px;
+  }
+}
+
+div.btn-banderol-home{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px; 
+}
+
 /* banderol index */
 .banderol{
-    background-image: url("../images/moi_banderol.jpg");
-    background-position: 0% 0%;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -19,10 +78,6 @@
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-}
-  
-.banderol#index_band{
-    background-image: url("../images/moi_banderol.jpg");
 }
     
 i{

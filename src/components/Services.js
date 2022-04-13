@@ -11,7 +11,6 @@ import Footer from './Footer';
 import { HashLink as Link } from 'react-router-hash-link';
 import { LangContext } from "../index";
 
-import DesktopImg from "../images/desktop_pic.jpg"
 import moiCoursBig from "../images/moi_cours_big.png"
 import dashboardBuilding from "../images/dashboard_building.png"
 import dataLake from "../images/data_lake.jpg"
@@ -69,9 +68,6 @@ function Services(props) {
             break
     
         default:
-            banderolStyle = {
-                "backgroundImage": `url(${DesktopImg})`
-            }
             break;
         }
 
