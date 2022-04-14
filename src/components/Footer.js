@@ -21,7 +21,7 @@ function Footer(props) {
             <Link to="/"><img src={logo} alt="logo"/></Link>
             <p>{content[lang].footer.network_msg}</p>
             <div>
-                <a href="#" className="btn" style={style_button} target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://www.youtube.com/channel/UCOVlxFlvew_CGy-8-iylkGw" className="btn" style={style_button} target="_blank" rel="noopener noreferrer">YouTube</a>
                 <a href="https://github.com/alex-conanec/" className="btn" style={style_button} target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="https://www.linkedin.com/in/alexandre-conanec/" className="btn" style={style_button} target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>

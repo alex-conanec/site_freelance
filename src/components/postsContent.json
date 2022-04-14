@@ -5,9 +5,9 @@
             "blog": "Blog",
             "project": "Projets"
         },
-        "services":{
+        "services": {
             "see_other": "Voir les autres services",
-            "list":[
+            "list": [
                 {
                     "id": "data",
                     "title": "Données",
@@ -64,7 +64,7 @@
         },
         "blog": {
             "see_other": "Voir les autres articles",
-            "list":[
+            "list": [
                 {
                     "id": "myStory",
                     "title": "Mon histoire",
@@ -94,12 +94,12 @@
                 }
             ]
         },
-        "projects":{
+        "projects": {
             "see_other": "Voir les autres projets",
             "list": [
                 {
                     "title": "Création d'un site vitrine",
-                    "description": "Ce même site vitrine que vous visitez en ce moment",
+                    "description": "Ce même site vitrine que vous visitez en ce moment.",
                     "date": {
                         "label": "Mis en ligne le :",
                         "value": "06/04/2022"
@@ -138,102 +138,141 @@
         }
     },
     "en": {
-        "services": [
-            {
-                "title": "Data",
-                "description": "Fueling the majority of data science projects, I propose automated data collection, <em>ad hoc</em> cleansing, and tailored storage.",
-                "more": {
-                    "label": "Read more",
-                    "LINK": "/service-data"
-                },
-                "img": {
-                    "NAME": "service_data",
-                    "alt": "data service pic"
-                }
-            },
-            {
-                "title": "Artificial intelligence",
-                "description": "Behind this big word I gather all my services in machine learning as well as in operational research to accompany you in your decision making.",
-                "more": {
-                    "label": "Read more",
-                    "LINK": "/service-IA"
-                },
-                "img": {
-                    "NAME": "service_IA",
-                    "alt": "ML service pic"
-                }
-            },
-            {
-                "title": "Visualization",
-                "description": "Creation of interactive graphs, maps of your geolocalized data that I propose to integrate into automated reports or dashboards.",
-                "more": {
-                    "label": "Read more",
-                    "LINK": "/service-visualisation"
-                },
-                "img": {
-                    "NAME": "service_vizu",
-                    "alt": "visualization service pic"
-                }
-            },
-            {
-                "title": "Formation",
-                "description": "To help your teams progress in data processing and analysis, I offer customized training.",
-                "more": {
-                    "label": "Read more",
-                    "LINK": "/service-training"
-                },
-                "img": {
-                    "NAME": "service_formation",
-                    "alt": "formation service pic"
-                }
-            }
-        ],
-        "blog": [
-            {
-                "title": "My story",
-                "description": "I tell you how I got here today",
-                "more": {
-                    "label": "Read more",
-                    "LINK": "/mon-histoire"
-                },
-                "date": "31/03/2022",
-                "key_words": [
-                    "Cursus",
-                    "Experience"
-                ],
-                "img": {
-                    "NAME": "moi_famille",
-                    "alt": "Alexandre Conanec, Dominique Conanec, Laura Conanec, Jean Guillemin"
-                }
-            }
-        ],
-        "projects": [
-            {
-                "title": "Creation of a showcase site",
-                "description": "This same showcase site that you are visiting right now",
-                "date": "06/04/2022",
-                "key_words": [
-                    "ReactJS",
-                    "javascript",
-                    "html",
-                    "css"
-                ],
-                "LINKS": [
-                    {
-                        "ICON": "fa-brands fa-github",
-                        "LINK": "https://github.com/alex-conanec/site_freelance"
-                    }
-                ],
-                "img": {
-                    "NAME": "mon_site",
-                    "alt": "Alexandre Conanec freelance data scientist website"
-                }
-            }
-        ],
         "nav": {
             "services": "Services",
             "blog": "Blog",
             "project": "Projects"
+        },
+        "services": {
+            "see_other": "See other services",
+            "list": [
+                {
+                    "id": "data",
+                    "title": "Data",
+                    "description": "Fueling the majority of data science projects, I propose automated data collection, <em>ad hoc</em> cleansing, and tailored storage.",
+                    "more": {
+                        "label": "Read more",
+                        "LINK": "/service-data#banderol"
+                    },
+                    "img": {
+                        "NAME": "service_data",
+                        "alt": "data service pic"
+                    }
+                },
+                {
+                    "id": "ml",
+                    "title": "Artificial intelligence",
+                    "description": "Behind this big word I gather all my services in machine learning as well as in operational research to accompany you in your decision making.",
+                    "more": {
+                        "label": "Read more",
+                        "LINK": "/service-IA#banderol"
+                    },
+                    "img": {
+                        "NAME": "service_IA",
+                        "alt": "ML service pic"
+                    }
+                },
+                {
+                    "id": "vizu",
+                    "title": "Visualization",
+                    "description": "Creation of interactive graphs, maps of your geolocalized data, which I propose to integrate into automated reports or dashboards.",
+                    "more": {
+                        "label": "Read more",
+                        "LINK": "/service-visualisation#banderol"
+                    },
+                    "img": {
+                        "NAME": "service_vizu",
+                        "alt": "visualization service pic"
+                    }
+                },
+                {
+                    "id": "formation",
+                    "title": "Formation",
+                    "description": "To help your teams progress in data processing and analysis, I offer customized training.",
+                    "more": {
+                        "label": "Read more",
+                        "LINK": "/service-training#banderol"
+                    },
+                    "img": {
+                        "NAME": "service_formation",
+                        "alt": "formation service pic"
+                    }
+                }
+            ]
+        },
+        "blog": {
+            "see_other": "See other articles",
+            "list": [
+                {
+                    "id": "myStory",
+                    "title": "My story",
+                    "description": "I tell you how I got here today",
+                    "more": {
+                        "label": "Read more",
+                        "LINK": "/mon-histoire#banderol"
+                    },
+                    "date": {
+                        "label": "Published on:",
+                        "value": "31/03/2022"
+                    },
+                    "key_words": [
+                        {
+                            "class": "trans-com",
+                            "text": "Cursus"
+                        },
+                        {
+                            "class": "trans-com",
+                            "text": "Experience"
+                        }
+                    ],
+                    "img": {
+                        "NAME": "moi_famille",
+                        "alt": "Alexandre Conanec, Dominique Conanec, Laura Conanec, Jean Guillemin"
+                    }
+                }
+            ]
+        },
+        "projects": {
+            "see_other": "See other projects",
+            "list": [
+                {
+                    "title": "Creation of a showcase site",
+                    "description": "This same showcase site that you are visiting right now.",
+                    "date": {
+                        "label": "Posted on :",
+                        "value": "06/04/2022"
+                    },
+                    "key_words": [
+                        {
+                            "class": "info-tool",
+                            "text": "ReactJS"
+                        },
+                        {
+                            "class": "info-lang",
+                            "text": "javascript"
+                        },
+                        {
+                            "class": "info-lang",
+                            "text": "html"
+                        },
+                        {
+                            "class": "info-lang",
+                            "text": "css"
+                        }
+                    ],
+                    "more": [
+                        {
+                            "label": "See the code",
+                            "ICON": "fa-brands fa-github",
+                            "LINK": "https://github.com/alex-conanec/site_freelance"
+                        }
+                    ],
+                    "img": {
+                        "NAME": "mon_site",
+                        "alt": "Alexandre Conanec freelance data scientist website"
+                    }
+                }
+            ]
         }
     }
 }

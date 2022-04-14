@@ -54,7 +54,7 @@
     },
     "en": {
         "banderol": {
-            "h1": "Data scientist Freelance",
+            "h1": "Data scientist freelance",
             "h2": "Alexandre Conanec",
             "diplome1": "Doctorate in Applied Mathematics",
             "diplome2": "Agricultural engineer",
@@ -63,6 +63,43 @@
             "button_story": "My story",
             "button_CV": "CV",
             "button_services": "Services"
+        },
+        "trust": {
+            "title": "They trust me!",
+            "recommandations": [
+                {
+                    "message": "We called upon Alexandre to develop an automatic processing of our users' geolocalized data. The delivered algorithm corresponds perfectly to our expectations and was implemented with quality. We also retain the great flexibility that Alexandre has shown to adapt to the tools that we use in our start-up. We clearly plan to continue our collaboration together!",
+                    "AUTHOR": "Simon Denonin",
+                    "poste": "CEO",
+                    "company": {
+                        "NAME": "Aptimiz",
+                        "LINK": "https://aptimiz.com/"
+                    }
+                },
+                {
+                    "message": "Mr. Conanec worked for the Pessac-Léognan appellation last year in the context of sensory data processing following an experiment on the white wines of our appellation. Dynamic, efficient and communicative, Mr. Conanec was able to answer all our requests. Always listening to our winemakers, we are delighted to have collaborated with him. If a similar experience were to be repeated, we would call upon him.",
+                    "AUTHOR": "Catherine Barbier-Lalève",
+                    "poste": "Director of the",
+                    "company": {
+                        "NAME": "Syndicat Viticole de Pessac-Léognan",
+                        "LINK": "https://www.pessac-leognan.com/en/"
+                    }
+                },
+                {
+                    "message": "From 2018 to 2021, Alexandre Conanec supported the team of statisticians at Bordeaux Sciences Agro. He has been in charge of numerous tutorials in statistics for engineering students - students and apprentices - covering a wide range of topics: descriptive and inferential statistics, multivariate statistics, programming on R... Thanks to his dual competence in agronomy and statistics, he has shown himself to be very relevant both from a theoretical and an applicative point of view, knowing how to make his discipline accessible to agronomy students. Do not hesitate to call upon him for your data analysis!",
+                    "AUTHOR": "Jean-Pierre Da Costa",
+                    "poste": "Professor of Statistics at",
+                    "company": {
+                        "NAME": "Bordeaux Science Agro",
+                        "LINK": "https://www.agro-bordeaux.fr/"
+                    }
+                }
+            ]
+        },
+        "contact": {
+            "title": "Please contact me!",
+            "placeholder_msg": "Hello Dr Conanec,&#10;I would like to request your services for a data science project...",
+            "send_button": "Send"
         },
         "footer": {
             "network_msg": "Find me on the networks:"

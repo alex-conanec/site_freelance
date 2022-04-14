@@ -157,7 +157,7 @@ function CV() {
                                             {contact_cluster.list.map((contact, index) => {
                                                 return(
                                                     <Fragment key={index}>
-                                                        <a href={contact.URL} target="_blank" rel="noopener noreferrer">{contact.NAME}</a><span>, </span> 
+                                                        <a href={contact.URL} target="_blank" rel="noopener noreferrer">{contact.NAME}</a><span>{index < contact_cluster.list.length - 1 ? ", " : null}</span> 
                                                     </Fragment>
                                                 )
                                             })}

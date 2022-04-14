@@ -60,7 +60,7 @@ function Main() {
 
             <section id="presentation_video">
                 <div className="yt-vid">
-                    <iframe title="Alexandre Conanec data scientist freelance" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowFullScreen></iframe>
+                    <iframe title="Alexandre Conanec data scientist freelance" src="https://www.youtube.com/embed/2Fqr4Eqkd20" frameborder="0" allowFullScreen></iframe>
                 </div>
             </section>
 

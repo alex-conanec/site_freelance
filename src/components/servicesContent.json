@@ -139,7 +139,7 @@
                 {
                     "ID": "comprendre",
                     "title": "Comprendre",
-                    "citation": "A scientist build in order to learn; an engineer learns in order to build.",
+                    "citation": "Un scientifique construit dans le but d'apprendre; un ingénieur apprend dans le but de construire.",
                     "SOURCE": "Fred Brooks",
                     "h3": [
                         "La problématique :",
@@ -227,7 +227,7 @@
                 {
                     "ID": "rapports",
                     "title": "Rapports automatisés",
-                    "citation": "DRY : Do no repeat yourself.",
+                    "citation": "DRY : Ne vous répétez plus !",
                     "SOURCE": "Andy Hunt & Dave Thomas",
                     "h3": [
                         "La problématique :",
@@ -255,7 +255,7 @@
                         "NAME": "dashboard",
                         "alt": "dashboard"
                     },
-                    "problematique": "Pour accompagner les décisions que vous prenez au quotidien, appuyez vous sur un tableau de bord ergonomique et à jour. Demandez-moi d'y ajouter l'évolution de vos ventes, par jour, par semaine, par mois. C'est vous qui choisissez les indicateurs pertinents pour votre décision. Incrémentons le tout de quelques filtres pour visualiser rapidement le chiffre réalisé par salarié et par secteur, ou pour déterminer quel client décrocheur vous devez inviter au restaurant le plus vite possible pour remplir votre carnet de commande. Obtenez en un clic les performances de votre site : le nombre de visites, le taux de conversion, les produits qui marchent le mieux et ceux qui mériteraient une petite promo. Ce tableau de bord peut pour tout ou partie être partagé avec vos équipes pour réduire la durée de vos réunions et garder toute votre équipe concernée sur les objectifs du mois et de l'année!",
+                    "problematique": "Pour accompagner les décisions que vous prenez au quotidien, appuyez-vous sur un tableau de bord ergonomique et à jour. Demandez-moi d'y ajouter l'évolution de vos ventes, par jour, par semaine, par mois. C'est vous qui choisissez les indicateurs pertinents pour votre décision. Incrémentons le tout de quelques filtres pour visualiser rapidement le chiffre réalisé par salarié et par secteur, ou pour déterminer quel client décrocheur vous devez inviter au restaurant le plus vite possible pour remplir votre carnet de commande. Obtenez en un clic les performances de votre site : le nombre de visites, le taux de conversion, les produits qui marchent le mieux et ceux qui mériteraient une petite promo. Ce tableau de bord peut pour tout ou partie être partagé avec vos équipes pour réduire la durée de vos réunions et garder toute votre équipe concernée sur les objectifs du mois et de l'année !",
                     "propositions": [
                         "Tableau de bord pour visualiser vos indicateurs clés de performances (KPI).",
                         "Un outil à destination de toute votre équipe avec une gestion facile des droits de lecture et de modification."
@@ -325,7 +325,7 @@
                     "problematique": "Il ne se passe pas un jour sans que vous n'entendiez parler d'une statistique. Les médias, les articles de revue, vos collègues, vos fournisseurs et vos clients vous inondent de ces maths qui font de la science ce qu'elle est. Que ce soit pour apprendre à décortiquer les méthodologies employées pour produire ces statistiques ou pour étayer vos résultats avec des modèles mathématiques fiables, je tenterai de démystifier la complexité qui se cache derrière la boite noire !",
                     "propositions": [
                         "Statistiques inférentielles (test d'hypothèse, ANOVA, etc.).",
-                        "Apprentissage supervisé (classNameification ou régression).",
+                        "Apprentissage supervisé (classification ou régression).",
                         "Apprentissage non supervisé (CAH, kmeans).",
                         "Analyses factorielles (ACP, ACM, etc.).",
                         "Validation des modèles (validation croisée, bootstrap, etc.)."
@@ -362,16 +362,19 @@
                 "anchors": [
                     {
                         "URL": "/service-data#collect",
+                        "TYPE": "fontawesome",
                         "ICON": "fa-solid fa-hand-holding",
                         "label": "Collecte"
                     },
                     {
                         "URL": "/service-data#clean",
+                        "TYPE": "fontawesome",
                         "ICON": "fa-solid fa-broom",
                         "label": "Cleaning"
                     },
                     {
                         "URL": "/service-data#stock",
+                        "TYPE": "fontawesome",
                         "ICON": "fa-solid fa-database",
                         "label": "Storage"
                     }
@@ -379,6 +382,7 @@
             },
             "services": [
                 {
+                    "ID": "collect",
                     "title": "Data collection",
                     "citation": "Data... The black gold of the XXI<sup>th</sup> century.",
                     "source": "undetermined source",
@@ -388,17 +392,18 @@
                     ],
                     "img": {
                         "NAME": "oil_barril",
-                        "alt": "Oil cans"
+                        "alt": "Data Fuel"
                     },
-                    "problematique": "Data is everywhere. Some of it is in your possession (your sensors, your measurements, your photos, etc.), some is on the net (API, website) or in other databases you have access to. Sometimes it is simply not recorded, especially by your users, employees etc.",
+                    "problematique": "Data is everywhere. Some of it is in your possession (your sensors, your measurements, your photos, etc.), some is on the net (API, website) or in other databases you have access to. Sometimes it is simply not recorded, especially by your users, employees, etc.",
                     "propositions": [
                         "Creation of a CRM type application to capture your data.",
                         "SQL queries to query your own databases.",
-                        "Web API to feed your database with external databases.",
+                        "Web API to feed your databases with external databases.",
                         "Web Scrappers to use the content of web pages."
                     ]
                 },
                 {
+                    "ID": "clean",
                     "title": "Data cleansing",
                     "citation": "Rice is not cooked in dishwater.",
                     "source": "Proverbs Georgia",
@@ -407,18 +412,19 @@
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "oil_barril",
-                        "alt": "Oil cans"
+                        "NAME": "data_cleaning",
+                        "alt": "Data vacuum cleaner"
                     },
-                    "problematique": "Black gold is in your barrel, but it's only raw oil for now. Your data must be homogenized to make it compatible with visualization or machine learning tools. This sometimes laborious and often underestimated step is however essential for the reliability of your models. A good preparation of the data also ensures an obvious saving of time during the modeling phase.",
+                    "problematique": "The black gold is in your barrel, but it's only crude oil at this point. Your data must be homogenized to make it compatible with visualization or machine learning tools. This sometimes laborious and often underestimated step is nevertheless essential for the reliability of your models. A good preparation of the data also ensures an obvious saving of time during the modeling phase.",
                     "propositions": [
                         "Document parsing (html, xml, pdf) to extract information.",
                         "Homogenization of variables (names, coding of modalities, units).",
-                        "Outlier detection.",
+                        "Detection of outliers.",
                         "Imputation of missing values."
                     ]
                 },
                 {
+                    "ID": "stock",
                     "title": "Data storage",
                     "citation": "A place for everything and everything in its place.",
                     "SOURCE": "Samuel Smile",
@@ -427,14 +433,14 @@
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "lego",
-                        "alt": "lego"
+                        "NAME": "etagere",
+                        "alt": "Data storage"
                     },
-                    "problematique": "The organization of your <strong>data</strong> should not be left to chance especially when their variety and volume is important. The use of relational databases notably allows you to schematize the organization of your data to limit redundancies and facilitate extractions. For projects that are constantly evolving, noSQL solutions are sometimes more appropriate because they provide more flexibility. The storage must both allow you to secure your data by making replicates and to distribute them so that they are accessible by a set of users that you have defined.",
+                    "problematique": "The organization of your <strong>data</strong> should not be left to chance especially when their variety and volume are important. The use of relational databases notably allows you to schematize the organization of your data to limit redundancies and facilitate extractions. For projects that are constantly evolving, noSQL solutions are sometimes more appropriate because they provide more flexibility. The storage must both allow you to secure your data by making replicas and to distribute them so that they are accessible by a set of users that you have defined.",
                     "propositions": [
                         "Data modeling to use relational databases.",
                         "Flexible storage as the project evolves with noSQL databases.",
-                        "Storage distribution to ensure accessibility of your data"
+                        "Storage distribution to ensure your data is accessible."
                     ]
                 }
             ]
@@ -442,27 +448,31 @@
         "ml": {
             "banderol": {
                 "title": "Artificial intelligence",
-                "description": "Creation of models to analyze and predict.",
+                "description": "Creation of models to analyze, predict and decide.",
                 "anchors": [
                     {
                         "URL": "/service-IA#predire",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "fa-solid fa-binoculars",
+                        "TYPE": "fontawesome",
                         "label": "Predict"
                     },
                     {
                         "URL": "/service-IA#comprendre",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "fa-solid fa-brain",
+                        "TYPE": "fontawesome",
                         "label": "Understand"
                     },
                     {
                         "URL": "/service-IA#decider",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "levier",
+                        "TYPE": "custom",
                         "label": "Decide"
                     }
                 ]
             },
             "services": [
                 {
+                    "ID": "predire",
                     "title": "Predict",
                     "citation": "A wise man is worth two.",
                     "source": "Popular proverb",
@@ -471,29 +481,30 @@
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "oil_barril",
-                        "alt": "Oil cans"
+                        "NAME": "graph_pred",
+                        "alt": "Time series prediction"
                     },
-                    "problematique": "Machine learning allows you to estimate what happens in a given context. Each prediction allows you to anticipate the realization of an event, to prevent a breakdown and avoid stopping the production line, to treat a disease at an early stage before the health of an individual/animal/plant deteriorates. As for the weather, get also forecasts on your sales forecasts",
+                    "problematique": "Machine learning allows you to estimate what happens in a given context. Each prediction allows you to anticipate the realization of an event, to prevent a breakdown and avoid stopping the production line, to treat a disease at an early stage before the health of an individual/animal/plant deteriorates. As for the weather, get also forecasts of your sales.",
                     "propositions": [
                         "Time series model to predict the future.",
-                        "Comparison of different regression/classNameification algorithms to improve your predictions.",
-                        "Validation of the model to ensure its reliability"
+                        "Comparison of different regression / classification algorithms to improve your predictions.",
+                        "Validation of the model to ensure its reliability."
                     ]
                 },
                 {
+                    "ID": "comprendre",
                     "title": "Understand",
-                    "citation": "A scientist build in order to learn; an engineer learns in order to build.",
+                    "citation": "A scientist builds in order to learn; an engineer learns in order to build.",
                     "SOURCE": "Fred Brooks",
                     "h3": [
                         "Issue:",
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "oil_barril",
-                        "alt": "Oil cans"
+                        "NAME": "meca_brain",
+                        "alt": "Digital brain"
                     },
-                    "problematique": "Sometimes predicting what happens is not enough to answer the problem and it is necessary to understand the mechanisms that are at play in a phenomenon of interest. For example, deciphering which explanatory variables have an impact on your variable to be explained and with what relative importance in order to modify your way of producing. Understanding the structure of your data can also be decisive, for example, by identifying typical customer profiles in order to propose an adapted and personalized offer.",
+                    "problematique": "Sometimes, predicting what happens is not enough to answer the problem and it is necessary to understand the mechanisms that are at play in a phenomenon of interest. For example, deciphering which explanatory variables have an impact on your variable to be explained and with what relative importance in order to modify your way of producing. Understanding the structure of your data can also be decisive, by identifying, for example, typical customer profiles in order to provide them with an adapted and personalized offer.",
                     "propositions": [
                         "Inferential statistics and hypothesis testing to scientifically process your experiments.",
                         "Sensitivity analysis to identify the main factors influencing your variable of interest.",
@@ -501,6 +512,7 @@
                     ]
                 },
                 {
+                    "ID": "decider",
                     "title": "Decide",
                     "citation": "To choose is to give up.",
                     "SOURCE": "André Gide",
@@ -509,8 +521,8 @@
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "lego",
-                        "alt": "lego"
+                        "NAME": "decision_making_process",
+                        "alt": "Decision-making process"
                     },
                     "problematique": "Deciding often means making choices between several options. Decision support algorithms take into account your objectives and constraints to find the solution that best meets your expectations. Allocate your resources more efficiently by minimizing a production cost or by finding a work organization that matches your teams and the different specialties of each. Set your selling price in an optimal way to maximize your profits by taking into account the relationship between price and volume sold.",
                     "propositions": [
@@ -528,23 +540,27 @@
                 "anchors": [
                     {
                         "URL": "/service-visualisation#graphiques",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "chart",
+                        "TYPE": "custom",
                         "label": "Graphics"
                     },
                     {
                         "URL": "/service-visualisation#rapports",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "fa-solid fa-file",
+                        "TYPE": "fontawesome",
                         "label": "Automated reports"
                     },
                     {
                         "URL": "/service-visualisation#dashboard",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "fa-solid fa-gauge-high",
+                        "TYPE": "fontawesome",
                         "label": "Dashboard"
                     }
                 ]
             },
             "services": [
                 {
+                    "ID": "graphiques",
                     "title": "Graphics",
                     "citation": "A picture is worth a thousand words.",
                     "SOURCE": "Confucius",
@@ -556,16 +572,17 @@
                         "NAME": "lego",
                         "alt": "lego illustration"
                     },
-                    "problematique": "If you are looking for a needle in a haystack, burn the hay and you will find your needle. With your data it's the same. Without being an expert in the human brain, I assure you that it assimilates tables rather badly, no matter how complete they are. On the other hand, put a color code for each modality of your variable, show the evolution of the curve as a function of time and in front of your graph which speaks for itself concentrate your energy to draw the lessons from the results. Instead of quoting your sales by department, show your interlocutors a geographical representation of volumes, evolutions...",
+                    "problematique": "If you are looking for a needle in a haystack, burn the hay and you will find your needle. With your data it's the same. Without being an expert in the human brain, I assure you that it assimilates tables rather badly, no matter how complete they are. On the other hand, put a color code for each modality of your variable, show the evolution of the curve as a function of time and in front of your graph that speaks for itself concentrate your energy on learning from the result. Instead of quoting your sales by department, show your interlocutors a geographical representation of the volumes, the evolutions...",
                     "propositions": [
                         "A sober graphical presentation of your data to present your results more effectively.",
-                        "More complex visualizations combining several variables and/or scales (temporal, geographical) to enhance your data analysis.",
+                        "More complex visualizations combining several variables and/or scales (temporal, geographical) to refine your data analysis.",
                         "Infographics for your customers to get your message across."
                     ]
                 },
                 {
+                    "ID": "rapports",
                     "title": "Automated reports",
-                    "citation": "DRY : Do no repeat yourself.",
+                    "citation": "DRY: Don't repeat yourself!",
                     "SOURCE": "Andy Hunt & Dave Thomas",
                     "h3": [
                         "Issue:",
@@ -575,12 +592,13 @@
                         "NAME": "ctrl-c-v",
                         "alt": "copier-coller"
                     },
-                    "problematique": "Whether it is for your customers, the administration, your shareholders or your employees, your reports allow you to go into the details of the figures in order to give explanations and the strategy to follow. If you are the author of one of these regular reports and you have half a tendonitis in your left hand from using ctrl-c - ctrl-v, you will like what I propose. Don't waste your time to find your way and concentrate your efforts on your real added value: the discussion of results and the elaboration of reflection and strategy tracks.",
+                    "problematique": "Whether they are for your customers, the administration, your shareholders or your employees, your reports allow you to go into the details of the figures in order to give explanations and the strategy to follow. If you are the author of one of these regular reports and you have half a tendonitis in your left hand from using ctrl-c - ctrl-v, you will like what I am proposing. Don't waste your time repeating yourself and concentrate your efforts on your real added value: the discussion of results and the development of ideas and strategies.",
                     "propositions": [
-                        "Regular report generation based on a template and a data source"
+                        "Regular generation of reports based on a template and a data source."
                     ]
                 },
                 {
+                    "ID": "dashboard",
                     "title": "Dashboard",
                     "citation": "Drive your business like a Formula 1 car.",
                     "source": "Moi",
@@ -589,10 +607,10 @@
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "lego",
-                        "alt": "lego"
+                        "NAME": "dashboard",
+                        "alt": "dashboard"
                     },
-                    "problematique": "To accompany the decisions you make on a daily basis, rely on a hergonomic and up-to-date dashboard. Ask me to add the evolution of your sales, per day, per week, per month. You choose the indicators that are relevant to your decision. Let's increment it all with some filters to quickly visualize the figure realized by employee and by sector, or to determine which customer drop out you have to invite to the restaurant as soon as possible to fill your order book. Get the performance of your site in one click: the number of visits, the conversion rate, the products that work best and those that deserve a small promotion. This dashboard can be shared with all or part of your team to reduce the length of your meetings and keep your whole team focused on the objectives of the month and the year!",
+                    "problematique": "To support the decisions you make on a daily basis, rely on an ergonomic and up-to-date dashboard. Ask me to add the evolution of your sales, per day, per week, per month. You choose the relevant indicators for your decision. Let's add a few filters to quickly visualize your sales by employee and by sector, or to determine which customer you should invite to the restaurant as soon as possible to fill your order book. Get in one click the performance of your site: the number of visits, the conversion rate, the products that work best and those that deserve a small promotion. This dashboard can be shared with your team to reduce the length of your meetings and keep your whole team focused on the objectives of the month and the year!",
                     "propositions": [
                         "Dashboard to view your key performance indicators (KPI).",
                         "A tool for your entire team with easy management of read and modify rights."
@@ -603,39 +621,43 @@
         "formation": {
             "banderol": {
                 "title": "Formations",
-                "description": "To help your team progress in data processing and analysis, I offer customized training.",
+                "description": "To help your teams progress in data processing and analysis, I offer customized training.",
                 "anchors": [
                     {
                         "URL": "/service-training#programmation",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "fa-brands fa-python",
+                        "TYPE": "fontawesome",
                         "label": "Programming"
                     },
                     {
-                        "URL": "/service-training#ML",
-                        "ICON": "fa-solid fa-database",
-                        "label": "Machine learning"
+                        "URL": "/service-training#statistique",
+                        "ICON": "sum",
+                        "TYPE": "custom",
+                        "label": "Statistics"
                     },
                     {
                         "URL": "/service-training#adhoc",
-                        "ICON": "fa-solid fa-database",
+                        "ICON": "flexible",
+                        "TYPE": "custom",
                         "label": "<em>ad-hoc</em> format"
                     }
                 ]
             },
             "services": [
                 {
+                    "ID": "programmation",
                     "title": "Programming",
-                    "citation": "A picture is worth a thousand words.",
-                    "SOURCE": "Confucius",
+                    "citation": "I choose a lazy person to do a difficult job. Because a lazy person will find an easy way to do it.",
+                    "SOURCE": "Bill Gates",
                     "h3": [
                         "Issue:",
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "lego",
-                        "alt": "lego illustration"
+                        "NAME": "tableau_periodique_lang",
+                        "alt": "periodic table of programming languages"
                     },
-                    "problematique": "I usually say that computers are the slaves of modern times. To tame these great machines and increase your capacity to do a lot of tedious, repetitive and sometimes human error-prone tasks, it is necessary to master one or more programming languages. I propose you to add new strings to your bow to improve your productivity.",
+                    "problematique": "I usually say that computers are the slaves of modern times. To tame these super machines and increase your capacity to do a lot of tedious, repetitive and sometimes human error-prone tasks, it is necessary to master one or several programming languages. I suggest you add new strings to your bow to improve your productivity.",
                     "propositions": [
                         "Data manipulation with dplyr, tidyr or pandas.",
                         "Data visualization with ggplot, plotly or shiny.",
@@ -643,43 +665,45 @@
                     ]
                 },
                 {
-                    "title": "Machine learning",
-                    "citation": "DRY : Do no repeat yourself.",
-                    "SOURCE": "Andy Hunt & Dave Thomas",
+                    "ID": "statistique",
+                    "title": "Statistics",
+                    "citation": "I only believe in statistics when I have falsified them myself.",
+                    "SOURCE": "Winston Churchill",
                     "h3": [
                         "Issue:",
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "ctrl-c-v",
-                        "alt": "copier-coller"
+                        "NAME": "stats_infs",
+                        "alt": "Inferential statistics"
                     },
-                    "problematique": "Whether it is for",
+                    "problematique": "Not a day goes by that you don't hear about a statistic. The media, journal articles, your colleagues, suppliers, and customers inundate you with the math that makes science what it is. Whether you want to learn how to unravel the methodologies used to produce these statistics or to support your results with reliable mathematical models, I will try to demystify the complexity behind the black box!",
                     "propositions": [
                         "Inferential statistics (hypothesis testing, ANOVA, etc.).",
-                        "Supervised learning (classNameification or regression).",
+                        "Supervised learning (classification or regression).",
                         "Unsupervised learning (CAH, kmeans).",
                         "Factor analysis (PCA, MCA, etc.).",
-                        "Model validation (cross validation, bootstrap, etc.)"
+                        "Model validation (cross validation, bootstrap, etc.)."
                     ]
                 },
                 {
+                    "ID": "adhoc",
                     "title": "<em>ad-hoc</em> format",
-                    "citation": "Drive your business like a Formula 1 car.",
-                    "source": "Moi",
+                    "citation": "Come as you are.",
+                    "SOURCE": "McDonald's",
                     "h3": [
                         "Issue:",
                         "What I suggest:"
                     ],
                     "img": {
-                        "NAME": "lego",
-                        "alt": "lego"
+                        "NAME": "cameleon",
+                        "alt": "Chameleon, adaptable, flexible"
                     },
                     "problematique": "Because you have different levels, different availability and different goals, I offer maximum flexibility.",
                     "propositions": [
                         "Small group training, webinar or conference.",
-                        "Duration, number of participants and frequency can be adjusted.",
-                        "Content and objectives adapted to your needs"
+                        "Duration, number of participants and frequency are flexible.",
+                        "Content and objectives adapted to your needs."
                     ]
                 }
             ]

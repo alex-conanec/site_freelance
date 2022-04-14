@@ -108,7 +108,6 @@ function Posts() {
                                 <h2>{project.title}</h2>
                                 <p>{parse(project.description)}</p> 
                                 <div>
-                                    Mots clés :
                                     <ul className="skill-list">
                                         {(project.key_words).map((word, index) => {
                                             return(

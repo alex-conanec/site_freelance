@@ -420,9 +420,9 @@
                         "label": "Séances :",
                         "content": [
                             "TD de statistique inférentielle.",
-                            "TD de statistique multivariée",
+                            "TD de statistique multivariée.",
                             "TP programmation sur R.",
-                            "CM Traitement de données d'analyse sensorielle."
+                            "CM traitement de données d'analyse sensorielle."
                         ]
                     },
                     "contact_clusters": [
@@ -708,7 +708,10 @@
             "CITY": "Bordeaux",
             "EMAIL": "alexandre@conanec.com",
             "car": "Vehicle",
-            "version_longue": "Long version",
+            "version_longue": {
+                "label": "Download",
+                "download": "CV.pdf"
+            },
             "version_courte": "Version 1 page"
         },
         "skills": {
@@ -734,9 +737,9 @@
                             "name": "Tools",
                             "class": "info-tool",
                             "skills_list": [
+                                "ReactJS",
+                                "Django",
                                 "Shiny",
-                                "flask",
-                                "kivy",
                                 "unix",
                                 "docker",
                                 "postgreSQL",
@@ -744,9 +747,10 @@
                                 "Rstudio",
                                 "Jupyter notebook",
                                 "rmarkdown",
-                                "Spyder",
                                 "VScode",
-                                "Git"
+                                "Git",
+                                "Scrapper",
+                                "WebApi"
                             ]
                         }
                     ]
@@ -762,7 +766,9 @@
                                 "Factor analysis",
                                 "Probabilités",
                                 "Kernel estimator",
-                                "Quantile regression"
+                                "Quantile regression",
+                                "Penalized Regression",
+                                "Optimization"
                             ]
                         },
                         {
@@ -772,6 +778,8 @@
                                 "CAH",
                                 "kmeans",
                                 "KNN",
+                                "Lasso",
+                                "Ridge",
                                 "Evolutionary algorithms",
                                 "Random Forest",
                                 "Decision tree"
@@ -859,10 +867,32 @@
                     "COMPANY": "Aptimiz",
                     "date": "2021",
                     "lieu": "Angers, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Kernel estimator"
+                        },
+                        {
+                            "class": "info-tool",
+                            "label": "WebApi"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "python"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomies"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Presentation material"
+                        }
+                    ],
                     "topic": {
                         "label": "Topic:",
                         "content": [
-                            "Automatic detection of agricultural plot outlines from GPS data of the farmer's cell phone."
+                            "Development of an algorithm for processing geolocalized data of the application's users."
                         ]
                     },
                     "contact_clusters": [
@@ -870,8 +900,8 @@
                             "label": "Company contact :",
                             "list": [
                                 {
-                                    "NAME": "Simon Denonain (CEO)",
-                                    "URL": "#"
+                                    "NAME": "Simon Denonnain (CEO)",
+                                    "URL": "https://www.linkedin.com/in/simon-denonnain-84666b12b/"
                                 }
                             ]
                         }
@@ -882,6 +912,36 @@
                     "COMPANY": "Syndicat Viticole de Pessac-Léognan",
                     "date": "2021",
                     "lieu": "Pessac, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Inferential statistics"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Factor analysis"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Lasso"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomies"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Public speaking"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Presentation material"
+                        }
+                    ],
                     "topic": {
                         "label": "Topic:",
                         "content": [
@@ -894,7 +954,7 @@
                             "list": [
                                 {
                                     "NAME": "Catherine Barbier-Lalève (Présidente)",
-                                    "URL": "#"
+                                    "URL": "https://www.linkedin.com/in/catherine-barbier-laleve-56287217b/?originalSubdomain=fr"
                                 }
                             ]
                         }
@@ -905,6 +965,88 @@
                     "COMPANY": "Bordeaux Science Agro",
                     "date": "2018-2021",
                     "lieu": "Gradignan, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Probabilités"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Kernel estimator"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Quantile regression"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Penalized Regression"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Ridge"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Optimization"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Evolutionary algorithms"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "Random Forest"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "latex"
+                        },
+                        {
+                            "class": "info-tool",
+                            "label": "Shiny"
+                        },
+                        {
+                            "class": "info-tool",
+                            "label": "docker"
+                        },
+                        {
+                            "class": "exp-bio",
+                            "label": "Acides gras"
+                        },
+                        {
+                            "class": "exp-agri",
+                            "label": "Meat industry"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Research"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomies"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Project management"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Public speaking"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Presentation material"
+                        },
+                        {
+                            "class": "trans-com",
+                            "label": "English"
+                        }
+                    ],
                     "topic": {
                         "label": "Topic:",
                         "content": [
@@ -916,12 +1058,12 @@
                             "label": "Laboratory:",
                             "list": [
                                 {
-                                    "NAME": "Inria Bordeau-Sud-Ouest",
-                                    "URL": "#"
+                                    "NAME": "Inria Bordeaux-Sud-Ouest",
+                                    "URL": "https://www.inria.fr/en/inria-centre-university-bordeaux"
                                 },
                                 {
                                     "NAME": "INRAE Centre Auvergne Rhône-Alpes",
-                                    "URL": "#"
+                                    "URL": "https://www.inrae.fr/en/centres/clermont-auvergne-rhone-alpes"
                                 }
                             ]
                         },
@@ -929,16 +1071,16 @@
                             "label": "Supervisors:",
                             "list": [
                                 {
-                                    "NAME": "Marie-Pierre Ellies (INRAE)",
-                                    "URL": "#"
+                                    "NAME": "Marie-Pierre Ellies-Oury (INRAE)",
+                                    "URL": "https://fr.linkedin.com/in/marie-pierre-ellies-oury-9a1a5811a"
                                 },
                                 {
                                     "NAME": "Jérôme Saracco (Inria)",
-                                    "URL": "#"
+                                    "URL": "https://jerome-saracco.fr/"
                                 },
                                 {
                                     "NAME": "Marie Chavent (Inria)",
-                                    "URL": "#"
+                                    "URL": "http://www.math.u-bordeaux.fr/~mchave100p/"
                                 }
                             ]
                         }
@@ -949,13 +1091,39 @@
                     "COMPANY": "Bordeaux Science Agro",
                     "date": "2018-2021",
                     "lieu": "Gradignan, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Inferential statistics"
+                        },
+                        {
+                            "class": "math-stat",
+                            "label": "Factor analysis"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "kmeans"
+                        },
+                        {
+                            "class": "math-algo",
+                            "label": "CAH"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "trans-com",
+                            "label": "Public speaking"
+                        }
+                    ],
                     "topic": {
                         "label": "Sessions :",
                         "content": [
                             "TD in inferential statistics.",
-                            "Multivariate statistics tutorial",
+                            "Multivariate statistics tutorial.",
                             "TP programming on R.",
-                            "CM Sensory analysis data processing."
+                            "CM sensory analysis data processing."
                         ]
                     },
                     "contact_clusters": [
@@ -964,15 +1132,15 @@
                             "list": [
                                 {
                                     "NAME": "Jean-Pierre Da Costa",
-                                    "URL": "#"
+                                    "URL": "https://fr.linkedin.com/in/jean-pierre-da-costa-07bb7613a"
                                 },
                                 {
                                     "NAME": "Lionel Bombrun",
-                                    "URL": "#"
+                                    "URL": "https://fr.linkedin.com/in/lionel-bombrun-bb417bb4"
                                 },
                                 {
                                     "NAME": "Muriel Denayrolles",
-                                    "URL": "#"
+                                    "URL": "https://fr.linkedin.com/in/muriel-denayrolles-317696108"
                                 }
                             ]
                         }
@@ -983,6 +1151,24 @@
                     "COMPANY": "Zootests",
                     "date": "2017",
                     "lieu": "Ploufragan, France",
+                    "skills_list": [
+                        {
+                            "class": "math-stat",
+                            "label": "Factor analysis"
+                        },
+                        {
+                            "class": "info-lang",
+                            "label": "R"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Autonomies"
+                        },
+                        {
+                            "class": "trans-orga",
+                            "label": "Project management"
+                        }
+                    ],
                     "topic": {
                         "label": "Topic:",
                         "content": [
@@ -995,11 +1181,11 @@
                             "list": [
                                 {
                                     "NAME": "Marie-Claire Musy (R&D)",
-                                    "URL": "#"
+                                    "URL": "https://fr.linkedin.com/in/marie-claire-musy-43ba7198"
                                 },
                                 {
                                     "NAME": "Christophe Alleno (PDG)",
-                                    "URL": "#"
+                                    "URL": "https://fr.linkedin.com/in/christophe-alleno-bbb08989"
                                 }
                             ]
                         }
