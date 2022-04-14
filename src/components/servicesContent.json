@@ -388,7 +388,7 @@
                     "source": "undetermined source",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "oil_barril",
@@ -398,7 +398,7 @@
                     "propositions": [
                         "Creation of a CRM type application to capture your data.",
                         "SQL queries to query your own databases.",
-                        "Web API to feed your databases with external databases.",
+                        "Web API to feed your databases with external ones.",
                         "Web Scrappers to use the content of web pages."
                     ]
                 },
@@ -409,7 +409,7 @@
                     "source": "Proverbs Georgia",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "data_cleaning",
@@ -430,7 +430,7 @@
                     "SOURCE": "Samuel Smile",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "etagere",
@@ -478,7 +478,7 @@
                     "source": "Popular proverb",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "graph_pred",
@@ -498,7 +498,7 @@
                     "SOURCE": "Fred Brooks",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "meca_brain",
@@ -518,7 +518,7 @@
                     "SOURCE": "André Gide",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "decision_making_process",
@@ -566,13 +566,13 @@
                     "SOURCE": "Confucius",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "lego",
                         "alt": "lego illustration"
                     },
-                    "problematique": "If you are looking for a needle in a haystack, burn the hay and you will find your needle. With your data it's the same. Without being an expert in the human brain, I assure you that it assimilates tables rather badly, no matter how complete they are. On the other hand, put a color code for each modality of your variable, show the evolution of the curve as a function of time and in front of your graph that speaks for itself concentrate your energy on learning from the result. Instead of quoting your sales by department, show your interlocutors a geographical representation of the volumes, the evolutions...",
+                    "problematique": "If you are looking for a needle in a haystack, burn the hay and you will find your needle. With your data it's the same. Without being an expert in the human brain, I assure you that it assimilates tables rather badly, no matter how complete they are. On the other hand, put a color code for each category of your variable, show the evolution of the curve as a function of time and in front of your plot that speaks for itself focus your energy on learning from the result. Instead of quoting your sales by region, show your interlocutors a geographical representation of the volumes, the evolutions...",
                     "propositions": [
                         "A sober graphical presentation of your data to present your results more effectively.",
                         "More complex visualizations combining several variables and/or scales (temporal, geographical) to refine your data analysis.",
@@ -586,13 +586,13 @@
                     "SOURCE": "Andy Hunt & Dave Thomas",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "ctrl-c-v",
                         "alt": "copier-coller"
                     },
-                    "problematique": "Whether they are for your customers, the administration, your shareholders or your employees, your reports allow you to go into the details of the figures in order to give explanations and the strategy to follow. If you are the author of one of these regular reports and you have half a tendonitis in your left hand from using ctrl-c - ctrl-v, you will like what I am proposing. Don't waste your time repeating yourself and concentrate your efforts on your real added value: the discussion of results and the development of ideas and strategies.",
+                    "problematique": "Whether they are for your customers, the administration, your shareholders or your employees, your reports allow you to go into the details of the figures in order to give explanations and the strategy to follow. If you are the author of one of these regular reports and you have half a tendonitis in your left hand from using ctrl-c - ctrl-v, you will like what I am proposing. Don't waste your time repeating yourself and focus your efforts on your real added value: the discussion of results and the development of ideas and strategies.",
                     "propositions": [
                         "Regular generation of reports based on a template and a data source."
                     ]
@@ -601,16 +601,16 @@
                     "ID": "dashboard",
                     "title": "Dashboard",
                     "citation": "Drive your business like a Formula 1 car.",
-                    "source": "Moi",
+                    "source": "Me",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "dashboard",
                         "alt": "dashboard"
                     },
-                    "problematique": "To support the decisions you make on a daily basis, rely on an ergonomic and up-to-date dashboard. Ask me to add the evolution of your sales, per day, per week, per month. You choose the relevant indicators for your decision. Let's add a few filters to quickly visualize your sales by employee and by sector, or to determine which customer you should invite to the restaurant as soon as possible to fill your order book. Get in one click the performance of your site: the number of visits, the conversion rate, the products that work best and those that deserve a small promotion. This dashboard can be shared with your team to reduce the length of your meetings and keep your whole team focused on the objectives of the month and the year!",
+                    "problematique": "To support the decisions you make on a daily basis, rely on an ergonomic and up-to-date dashboard. Ask me to add the evolution of your sales, per day, per week, per month. You choose the relevant indicators for your decision. Let's add a few filters to quickly visualize your sales by employee and by sector, or to determine which customer you should invite to the restaurant as soon as possible to fill your order book. Get in one click the performance of your website: the number of visits, the conversion rate, the products that work best and those that deserve a small discount. This dashboard can be shared with your team to reduce the length of your meetings and keep your whole team focused on the objectives of the month and the year!",
                     "propositions": [
                         "Dashboard to view your key performance indicators (KPI).",
                         "A tool for your entire team with easy management of read and modify rights."
@@ -651,7 +651,7 @@
                     "SOURCE": "Bill Gates",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "tableau_periodique_lang",
@@ -667,17 +667,17 @@
                 {
                     "ID": "statistique",
                     "title": "Statistics",
-                    "citation": "I only believe in statistics when I have falsified them myself.",
+                    "citation": "The only statistics you can trust are those you falsified yourself.",
                     "SOURCE": "Winston Churchill",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "stats_infs",
                         "alt": "Inferential statistics"
                     },
-                    "problematique": "Not a day goes by that you don't hear about a statistic. The media, journal articles, your colleagues, suppliers, and customers inundate you with the math that makes science what it is. Whether you want to learn how to unravel the methodologies used to produce these statistics or to support your results with reliable mathematical models, I will try to demystify the complexity behind the black box!",
+                    "problematique": "Not a day goes by that you don't hear about a statistic. The media, newspaper articles, your colleagues, suppliers, and customers inundate you with the math that makes science what it is. Whether you want to learn how to unravel the methodologies used to produce these statistics or to support your results with reliable mathematical models, I will try to demystify the complexity behind the black box!",
                     "propositions": [
                         "Inferential statistics (hypothesis testing, ANOVA, etc.).",
                         "Supervised learning (classification or regression).",
@@ -693,7 +693,7 @@
                     "SOURCE": "McDonald's",
                     "h3": [
                         "Issue:",
-                        "What I suggest:"
+                        "What I propose:"
                     ],
                     "img": {
                         "NAME": "cameleon",

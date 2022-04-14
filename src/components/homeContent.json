@@ -56,12 +56,12 @@
         "banderol": {
             "h1": "Data scientist freelance",
             "h2": "Alexandre Conanec",
-            "diplome1": "Doctorate in Applied Mathematics",
+            "diplome1": "PhD in Applied Mathematics",
             "diplome2": "Agricultural engineer",
             "description": "Hello, I am a freelance data scientist. I assist companies in the realization of their artificial intelligence and data visualization projects. The expertise I have developed in the agricultural sector allows me to quickly grasp your challenges and understand your data without difficulty.",
             "button_mail": "Mail",
             "button_story": "My story",
-            "button_CV": "CV",
+            "button_CV": "Resume",
             "button_services": "Services"
         },
         "trust": {

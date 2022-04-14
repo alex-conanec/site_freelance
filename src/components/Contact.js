@@ -35,7 +35,7 @@ function Contact() {
             <input type="text" name="user_name" className="identification name" placeholder="Jean Dupont" onChange={(e) => setName(e.target.value)} value={name}/>
             <input type="email" name="user_email" className="identification email" placeholder="jean.dupont@gmail.com" onChange={(e) => setEmail(e.target.value)} value={email}/>
             <textarea name="message" className="content" placeholder={parse(content[lang].contact.placeholder_msg)} onChange={(e) => setMessage(e.target.value)} value={message}/>
-            <input className="btn submit" type="submit" value="Envoyer" />
+            <input className="btn submit" type="submit" value={content[lang].contact.send_button} />
             </form>
         </section>
     );
