@@ -19,6 +19,8 @@ function Main() {
         document.title = "Alexandre Conanec : data scientist freelance"
     })
 
+    console.log()
+
 
     const {lang} = React.useContext(LangContext)
     const content = require('./homeContent.json');
@@ -29,7 +31,7 @@ function Main() {
     
     return (
         <article>
-            <section id="index_band" className="banderol-home">
+            <section id="index_band" className="banderol-home" style={window.navigator.platform.match(/iP/g) !== null ? {"backgroundAttachment": "scroll"} : null}>
 
                 <Lang/>
                 
@@ -60,7 +62,7 @@ function Main() {
 
             <section id="presentation_video">
                 <div className="yt-vid">
-                    <iframe title="Alexandre Conanec data scientist freelance" src="https://www.youtube.com/embed/2Fqr4Eqkd20" frameborder="0" allowFullScreen></iframe>
+                    <iframe title="Alexandre Conanec data scientist freelance" src="https://www.youtube.com/embed/2Fqr4Eqkd20" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </section>
 
