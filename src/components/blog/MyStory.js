@@ -50,6 +50,9 @@ function MyStory() {
         document.title = banderol.title
     }, [])
 
+    if (window.navigator.platform.match(/iP/g) !== null){
+        banderolStyle["backgroundAttachment"] = "scroll"
+    }
 
     return (
         <Fragment>

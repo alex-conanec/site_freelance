@@ -37,11 +37,6 @@ function Services(props) {
         document.title = banderol.title
     }, [])
 
-
-    useEffect(() => {
-        document.title = banderol.title
-    }, [lang])
-
     switch (service_id) {
         case "data":
             banderolStyle = {
@@ -136,11 +131,14 @@ function Services(props) {
         }
     }
 
+    if (window.navigator.platform.match(/iP/g) !== null){
+        banderolStyle["backgroundAttachment"] = "scroll"
+    }
 
     return (
         <article>
             <Back href="/#posts"/>
-            <section id="banderol" className="banderol" style={banderolStyle}>
+            <section id="banderol" className="banderol" style={banderolStyle}> 
                 
                 <Lang/>
 
