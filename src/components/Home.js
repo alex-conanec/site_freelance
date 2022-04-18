@@ -19,8 +19,6 @@ function Main() {
         document.title = "Alexandre Conanec : data scientist freelance"
     })
 
-    console.log()
-
 
     const {lang} = React.useContext(LangContext)
     const content = require('./homeContent.json');

@@ -348,6 +348,7 @@
                     ],
                     "topic": {
                         "label": "Sujet :",
+                        "URL": "http://www.theses.fr/2021BORD0268",
                         "content": [
                             "Modélisation de l'optimisation du pilotage des performances des bovins et de la qualité de leur viande."
                         ]
@@ -1049,6 +1050,7 @@
                     ],
                     "topic": {
                         "label": "Topic:",
+                        "URL": "http://www.theses.fr/2021BORD0268",
                         "content": [
                             "Modeling the optimization of cattle performance and meat quality."
                         ]

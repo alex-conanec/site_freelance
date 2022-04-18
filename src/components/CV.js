@@ -36,7 +36,8 @@ function CV() {
             return(
                 <Fragment>
                     <strong>{topic.label} </strong>
-                    {topic.content[0]}<br/>
+                    {"URL" in topic ? <a href={topic.URL} target="_blank" rel="noopener noreferrer">{topic.content[0]}</a> : topic.content[0]}
+                    <br/>
                 </Fragment>
             )
 
