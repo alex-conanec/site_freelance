@@ -355,7 +355,7 @@
                     },
                     "contact_clusters": [
                         {
-                            "label": "Laboratoire :",
+                            "label": "Laboratoires :",
                             "list": [
                                 {
                                     "NAME": "Inria Bordeaux-Sud-Ouest",
@@ -1057,7 +1057,7 @@
                     },
                     "contact_clusters": [
                         {
-                            "label": "Laboratory:",
+                            "label": "Laboratories:",
                             "list": [
                                 {
                                     "NAME": "Inria Bordeaux-Sud-Ouest",
