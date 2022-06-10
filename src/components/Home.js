@@ -10,25 +10,27 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Lang from './Lang';
 import { LangContext } from "../index";
+import MetaDescriptor from '../utils/MetaDescriptor';
 
 
 function Main() {
 
     useEffect( () => {
         window.scrollTo(0, 0);
-        document.title = "Alexandre Conanec : data scientist freelance"
     })
 
 
     const {lang} = React.useContext(LangContext)
     const content = require('./homeContent.json');
     const banderol = content[lang].banderol;
+    const meta = content[lang].meta;
     const recommandations = content[lang].trust.recommandations;
     
 
     
     return (
         <article>
+            <MetaDescriptor title={meta.title} description={meta.description} />
             <section id="index_band" className="banderol-home" style={window.navigator.platform.match(/iP/g) !== null ? {"backgroundAttachment": "scroll"} : null}>
 
                 <Lang/>

@@ -33,3 +33,6 @@ translate.ipynb
 #ssl
 server.*
 data-scientist.conanec.com.crt
+
+#other
+.vscode/

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Lang from './Lang'
 import logo from '../images/logo_comp.svg';
 import levier_icon from '../images/levier_icon_comp.svg';
@@ -17,6 +17,7 @@ import dataLake from "../images/data_lake.jpg"
 import IA from "../images/IA.jpg"
 import Back from './Back';
 import SeeOther from './SeeOther';
+import MetaDescriptor from '../utils/MetaDescriptor';
 
 
 
@@ -33,9 +34,6 @@ function Services(props) {
     const services = content[lang][service_id]["services"];
     let banderolStyle;
 
-    useEffect(() => {
-        document.title = banderol.title
-    }, [])
 
     switch (service_id) {
         case "data":
@@ -137,6 +135,7 @@ function Services(props) {
 
     return (
         <article>
+            <MetaDescriptor title={banderol.title} description={banderol.description} />
             <Back href="/#posts"/>
             <section id="banderol" className="banderol" style={banderolStyle}> 
                 

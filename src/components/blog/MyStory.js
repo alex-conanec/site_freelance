@@ -8,6 +8,7 @@ import { LangContext } from "../../index";
 import ImgBanderol from "../../images/famille_not_retouch.jpg"
 import Back from '../Back';
 import SeeOther from '../SeeOther';
+import MetaDescriptor from '../../utils/MetaDescriptor';
 
 var parse = require('html-react-parser');
 function MyStory() {
@@ -46,9 +47,6 @@ function MyStory() {
         }
     }
 
-    useEffect(() => {
-        document.title = banderol.title
-    }, [])
 
     if (window.navigator.platform.match(/iP/g) !== null){
         banderolStyle["backgroundAttachment"] = "scroll"
@@ -56,6 +54,7 @@ function MyStory() {
 
     return (
         <Fragment>
+            <MetaDescriptor title={banderol.title} description={banderol.description} />
             <Back href="/#posts"/>
             <section id="banderol" className="banderol" style={banderolStyle}>
                 

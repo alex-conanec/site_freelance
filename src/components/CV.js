@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment } from 'react'
 import logo from '../images/logo_comp.svg';
 import "./cv.css"
 import "./skills.css"
@@ -7,6 +7,7 @@ import Lang from './Lang';
 import { Link } from 'react-router-dom'
 import { LangContext } from "../index";
 import Back from './Back';
+import MetaDescriptor from '../utils/MetaDescriptor';
 
 
 var parse = require('html-react-parser');
@@ -14,6 +15,7 @@ function CV() {
 
     const {lang} = React.useContext(LangContext)
     const content = require('./cvContent.json');
+    const meta = content[lang].meta;
     const entete = content[lang].entete;
     const skills = content[lang].skills;
     const diplomes = content[lang].diplomes;
@@ -21,13 +23,6 @@ function CV() {
     const dev = content[lang].dev;
     const publis = content[lang].publis;
 
-    useEffect(() => {
-        if (lang === "fr"){
-            document.title = "CV d'Alexandre Conanec"
-        }else if (lang === "en"){
-            document.title = "Alexandre Conanec's resume"
-        }
-    }, [lang])
 
     const Topic = (props) => {
 
@@ -61,6 +56,7 @@ function CV() {
 
     return (
         <article>
+            <MetaDescriptor title={meta.title} description={meta.description} />
             <Back href="/#banderol"/>
             <section id="entete_cv">
                 <div className="logo">

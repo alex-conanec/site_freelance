@@ -1,5 +1,9 @@
 {
     "fr": {
+        "meta" : {
+            "title" : "Alexandre Conanec : data scientist freelance",
+            "description" : "En tant que data scientist, j’accompagne les porteurs de projets numériques dans la collecte, le traitement et la visualisation de données."
+        },
         "banderol": {
             "h1": "Data scientist freelance",
             "h2": "Alexandre Conanec",
@@ -53,6 +57,10 @@
         }
     },
     "en": {
+        "meta" : {
+            "title" : "Alexandre Conanec : data scientist freelance",
+            "description" : "As a data scientist, I support digital project developers in the collection, processing and visualization of data."
+        },
         "banderol": {
             "h1": "Data scientist freelance",
             "h2": "Alexandre Conanec",
