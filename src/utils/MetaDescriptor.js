@@ -7,7 +7,7 @@ const MetaDescriptor = ({ title, description }) => {
   return (
     <Helmet>
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta property="og:description" content={description} />
     </Helmet>
   )
 }

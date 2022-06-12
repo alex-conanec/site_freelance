@@ -8,6 +8,8 @@ import Home from './components/Home';
 import CV from './components/CV';
 import MyStory from './components/blog/MyStory';
 import Services from './components/Services';
+import RouterA from './RouterA'
+
 
 import { hydrate, render } from "react-dom";
 
